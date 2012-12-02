@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Infinity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-18 18:28+0500\n"
+"PO-Revision-Date: 2012-07-05 14:58+0800\n"
+"Last-Translator: vivi <vivi@justso.cn>\n"
+"Language-Team: DesignCoral.Com <designcoralblog@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr\n"
+"X-Poedit-Basepath: D:\\infinity\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "404"
+msgstr "404"
+
+#: 404.php:10
+msgid "Whoah! You broke something!"
+msgstr "抱歉，页面不存在或已被删除。"
+
+#: 404.php:17
+#, php-format
+msgid "Just kidding! You tried going to %s, which doesn't exist, so that means I probably broke something."
+msgstr "本页面URL是%s，您可以将此报告给本站管理员。"
+
+#: 404.php:19
+msgid "The following is a list of the latest posts from the blog. Maybe it will help you find what you're looking for."
+msgstr "下面的文章或许对您有帮助。"
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "本日志已经加密，请输入密码。"
+
+#: comments.php:32
+msgid "&larr; Older Comments"
+msgstr "&larr; 旧评论"
+
+#: comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr "新评论 &rarr;"
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: content-attachment.php:9
+#: content-single.php:9
+#: content.php:10
+msgid "Featured"
+msgstr "精选"
+
+#: content.php:4
+#, php-format
+msgid "Permalink to %s"
+msgstr "固定链接 %s"
+
+#: loop-error.php:2
+msgid "Nothing Found"
+msgstr "未找到"
+
+#: loop-error.php:4
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "抱歉，没有您要找的日志，建议搜索相关内容。"
+
+#: loop-meta.php:4
+#, php-format
+msgid "Category Archives: %s"
+msgstr "分类归档: %s"
+
+#: loop-meta.php:11
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "标签归档: %s"
+
+#: loop-meta.php:21
+#, php-format
+msgid "Author Archives: %s"
+msgstr "作者归档: %s"
+
+#: loop-meta.php:28
+#, php-format
+msgid "Search Results: %s"
+msgstr "搜索结果: %s"
+
+#: loop-meta.php:29
+#, php-format
+msgid "You are browsing the search results for %s"
+msgstr "您正在浏览 %s 的搜索结果。"
+
+#: loop-meta.php:35
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "每日归档: %s"
+
+#: loop-meta.php:36
+msgid "You are browsing the site archives by date."
+msgstr "您正在浏览的是按日期归档。"
+
+#: loop-meta.php:42
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "按月归档: %s"
+
+#: loop-meta.php:43
+msgid "You are browsing the site archives by month."
+msgstr "您正在浏览的是按月归档。"
+
+#: loop-meta.php:49
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "年度归档: %s"
+
+#: loop-meta.php:50
+msgid "You are browsing the site archives by year."
+msgstr "您正在浏览的是按年归档。"
+
+#: loop-meta.php:56
+msgid "Archives"
+msgstr "时间线"
+
+#: loop-meta.php:57
+msgid "You are browsing the site archives."
+msgstr "您正在浏览时间线。"
+
+#: searchform.php:4
+#: searchform.php:5
+msgid "Search..."
+msgstr "搜索..."
+
+#: lib/admin/admin.php:60
+#: lib/admin/admin.php:61
+msgid "Infinity Options"
+msgstr "主题选项"
+
+#: lib/admin/admin.php:111
+msgid "Theme Support"
+msgstr "主题支持"
+
+#: lib/admin/admin.php:118
+msgid "For more information:"
+msgstr "想了解更多信息:"
+
+#: lib/admin/admin.php:120
+msgid "Infinity Project"
+msgstr "Infinity项目"
+
+#: lib/admin/admin.php:123
+msgid "Infinity Official Page"
+msgstr "官方页面"
+
+#: lib/admin/admin.php:148
+msgid "Post Style"
+msgstr "文章样式"
+
+#: lib/admin/admin.php:149
+msgid "Post Navigation Style"
+msgstr "导航样式"
+
+#: lib/admin/admin.php:154
+msgid "Use Analytic"
+msgstr "统计代码"
+
+#: lib/admin/admin.php:155
+msgid "Enter Analytic Code"
+msgstr "输入统计代码"
+
+#: lib/admin/admin.php:156
+msgid "Enter Copyright Text"
+msgstr "输入底部文本"
+
+#: lib/admin/admin.php:157
+msgid "Reset Theme Options"
+msgstr "重置选项"
+
+#: lib/admin/admin.php:203
+msgid "yes"
+msgstr "是"
+
+#: lib/admin/admin.php:203
+msgid "no"
+msgstr "否"
+
+#: lib/admin/admin.php:208
+msgid "Content"
+msgstr "内容"
+
+#: lib/admin/admin.php:208
+msgid "Excerpt (Magazine Style)"
+msgstr "摘录（杂志风格）"
+
+#: lib/admin/admin.php:213
+msgid "Numeric"
+msgstr "数字"
+
+#: lib/admin/admin.php:213
+msgid "Older / Newer"
+msgstr "旧的 / 新的"
+
+#: lib/admin/admin.php:254
+msgid "Settings Saved."
+msgstr "设置已保存。"
+
+#: lib/admin/admin.php:262
+msgid "Infinity Blog Options"
+msgstr "Infinity 博客选项"
+
+#: lib/admin/admin.php:295
+msgid "Infinity General Options"
+msgstr "Infinity 常规选项"
+
+#: lib/admin/admin.php:311
+msgid "Select yes to add your Analytic code."
+msgstr "选择是添加您的统计代码。"
+
+#: lib/admin/admin.php:319
+msgid "Enter the Analytic code."
+msgstr "输入统计代码"
+
+#: lib/admin/admin.php:328
+msgid "Enter Copyright Text."
+msgstr "输入底部代码"
+
+#: lib/admin/admin.php:338
+msgid "Reset Theme Options."
+msgstr "重置主题选项"
+
+#: lib/admin/page.php:8
+#, php-format
+msgid "%1$s Theme Settings"
+msgstr "%1$s 主题设置"
+
+#: lib/admin/page.php:19
+msgid "Blog Options"
+msgstr "博客设置"
+
+#: lib/admin/page.php:20
+msgid "General Options"
+msgstr "常规选项"
+
+#: lib/admin/page.php:29
+msgid "Save Changes"
+msgstr "保存设置"
+
+#: lib/functions/custom-header.php:36
+msgid "Infinity"
+msgstr "Infinity"
+
+#: lib/functions/menus.php:25
+msgid "Infinity Primary Menu"
+msgstr "Infinity 主菜单"
+
+#: lib/functions/sidebars.php:58
+msgid "Infinity Primary Sidebar"
+msgstr "Infinity 主侧边"
+
+#: lib/functions/sidebars.php:60
+msgid "The main (primary) widget area, most often used as a sidebar."
+msgstr "主侧边区域，常用侧边栏。"
+
+#: lib/functions/utility.php:41
+#, php-format
+msgid "by %2$s"
+msgstr "由 %2$s"
+
+#: lib/functions/utility.php:52
+#: lib/functions/utility.php:54
+#: lib/functions/utility.php:351
+#: lib/functions/utility.php:380
+msgid "Edit"
+msgstr "编辑"
+
+#: lib/functions/utility.php:70
+msgid "Leave a Comment"
+msgstr "发表评论"
+
+#: lib/functions/utility.php:70
+msgid "1 Comment"
+msgstr "1 评论"
+
+#: lib/functions/utility.php:70
+msgid "% Comments"
+msgstr "% 评论"
+
+#: lib/functions/utility.php:87
+msgid "Posted in:"
+msgstr "发表于:"
+
+#: lib/functions/utility.php:99
+msgid "Tagged:"
+msgstr "标签:"
+
+#: lib/functions/utility.php:107
+msgid "Pages:"
+msgstr "页面:"
+
+#: lib/functions/utility.php:125
+msgid "Read More"
+msgstr "阅读更多"
+
+#: lib/functions/utility.php:186
+#: lib/functions/utility.php:209
+#: lib/functions/utility.php:239
+#: lib/functions/utility.php:258
+msgid "Post Navigation"
+msgstr "文章导航"
+
+#: lib/functions/utility.php:197
+msgid "Older Posts"
+msgstr "较早的文章"
+
+#: lib/functions/utility.php:201
+msgid "Newer Posts"
+msgstr "较新的文章"
+
+#: lib/functions/utility.php:227
+msgid "Previous Post"
+msgstr "上一篇"
+
+#: lib/functions/utility.php:231
+msgid "Next Post"
+msgstr "下一篇"
+
+#: lib/functions/utility.php:259
+msgid "&larr; Return to"
+msgstr "&larr; 返回"
+
+#: lib/functions/utility.php:280
+msgid "Attachment Navigation"
+msgstr "附件导航"
+
+#: lib/functions/utility.php:309
+#, php-format
+msgid "About %s"
+msgstr "关于 %s"
+
+#: lib/functions/utility.php:312
+#, php-format
+msgid "View all posts by %s"
+msgstr "查看 %s 所有日志"
+
+#: lib/functions/utility.php:351
+msgid "Pingback:"
+msgstr "引用与通告:"
+
+#: lib/functions/utility.php:376
+msgid "said:"
+msgstr "说:"
+
+#: lib/functions/utility.php:385
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: lib/functions/utility.php:395
+msgid "Reply"
+msgstr "回复"
+
+#: lib/functions/utility.php:465
+#: lib/functions/utility.php:470
+msgid "Read More ..."
+msgstr "阅读更多 ..."
+

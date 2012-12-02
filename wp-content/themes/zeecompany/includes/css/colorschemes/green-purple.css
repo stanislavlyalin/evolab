@@ -1,0 +1,32 @@
+.post-title, .post-title a:link, .post-title a:visited {
+	color: #ff00e4;
+}
+a, a:link, a:visited,
+#sidebar a:link, #sidebar a:visited ,
+.post-title a:hover, .post-title a:active,
+.arh, #tabs_navi li a,
+#comments h3, #respond h3, .comment-reply-link,
+.wp-pagenavi a,
+#frontpage_posts h2, #frontpage_widgets a:link, #frontpage_widgets a:visited
+{
+	color: #197310;
+}
+a:hover, a:active,
+#sidebar .widgettitle,
+#sidebar a:hover, #sidebar a:active,
+.current_page_item a, .current-cat a, .current-menu-item a,
+#tabs_navi li a:hover, #tabs_navi li a:active, #tabs_navi li.ui-tabs-selected a,
+.bypostauthor .fn, #frontpage_widgets .widgettitle, #frontpage_widgets a:hover, #frontpage_widgets a:active
+{
+	color: #ff00e4;
+}
+.wp-pagenavi .current {
+	background-color: #ff00e4;
+}
+.widget-tabnav li a, #frontpage_pager a.activeSlide, #frontpage_slideshow .type-frontpage_slider .more-link {
+	background: #197310;
+}
+.widget-tabnavi li a:hover, .widget-tabnavi li a:active,
+#frontpage_pager a:hover, #frontpage_slideshow .type-frontpage_slider .more-link:hover {
+		background: #ff00e4;
+}

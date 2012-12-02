@@ -1,0 +1,47 @@
+/*  Global
+------------------------ */
+
+.infinity-clear {
+	clear: both;
+	height: 0px;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.infinity-focus {
+	color: #dc4b39;
+	font-weight: bold;
+}
+
+/*  Tabs
+------------------------ */
+
+.infinity-tabs h3 { 
+	display:none;
+}
+
+.infinity-tabs {
+	margin: 15px 0 15px 0;
+}
+
+.infinity-tabs h2 {
+	margin: 0 8px;
+}
+
+.infinity-tabs-content {
+	padding: 10px;
+}
+
+.infinity-tabs-content a:link,
+.infinity-tabs-content a:visited,
+.infinity-tabs-data a:link,
+.infinity-tabs-data a:visited {
+	color: #dc4b39;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.infinity-tabs-content a:hover,
+.infinity-tabs-data a:hover {
+	text-decoration: underline;
+}
