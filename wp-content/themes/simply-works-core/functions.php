@@ -216,4 +216,12 @@ extract(shortcode_atts(array('color'=>'yellow',), $atts));
 return '<div class="message ' .$color. ' ">' . do_shortcode($content) . '</div>';
 }
 add_shortcode('text-box','swc_text_box');
+
+function get_current_user_role() {
+  global $wp_roles;
+  $current_user = wp_get_current_user();
+  $roles = $current_user->roles;
+  $role = array_shift($roles);
+  return $wp_roles->role_names[$role];
+}
 ?>
