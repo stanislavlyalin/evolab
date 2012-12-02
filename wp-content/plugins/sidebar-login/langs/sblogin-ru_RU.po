@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sidebar Login Russian Support\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-02 19:47+0400\n"
+"PO-Revision-Date: 2012-12-02 19:58+0400\n"
+"Last-Translator: boris <_boris_sv@mail.ru>\n"
+"Language-Team: Borje <b.portu@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../admin.php:18
+msgid "Login"
+msgstr "Войти"
+
+#: ../admin.php:19
+#, fuzzy
+msgid "Logged out heading"
+msgstr "Ссылки, отображаемые после входа"
+
+#: ../admin.php:20
+msgid "Heading for the widget when the user is logged out."
+msgstr ""
+
+#: ../admin.php:24
+msgid "Welcome %username%"
+msgstr "Здравствуйте, %username%"
+
+#: ../admin.php:25
+#, fuzzy
+msgid "Logged in heading"
+msgstr "Ссылки, отображаемые после входа"
+
+#: ../admin.php:26
+msgid "Heading for the widget when the user is logged in."
+msgstr ""
+
+#: ../admin.php:31
+msgid "Redirects"
+msgstr "Перенаправления"
+
+#: ../admin.php:36
+#, fuzzy
+msgid "Login redirect"
+msgstr "Перенаправление на URL после входа"
+
+#: ../admin.php:37
+#, fuzzy
+msgid ""
+"Url to redirect the user to after login. Leave blank to use the current page."
+msgstr ""
+"URL, на который перейдёт пользователь после входа. Оставьте пустым, чтобы "
+"пользователь возвращался на текущую страницу."
+
+#: ../admin.php:43
+#, fuzzy
+msgid "Logout redirect"
+msgstr "Перенаправление на URL после выхода"
+
+#: ../admin.php:44
+#, fuzzy
+msgid ""
+"Url to redirect the user to after logout. Leave blank to use the current "
+"page."
+msgstr ""
+"URL, на который перейдёт пользователь после выхода. Оставьте пустым, чтобы "
+"пользователь возвращался на текущую страницу."
+
+#: ../admin.php:50
+msgid "Links"
+msgstr "Ссылки"
+
+#: ../admin.php:55
+msgid "Show Register Link"
+msgstr "Показывать ссылку \"Регистрация\""
+
+#: ../admin.php:56
+#, php-format
+msgid ""
+"The <a href=\"%s\" target=\"_blank\">'Anyone can register'</a> setting must "
+"be turned on for this option to work."
+msgstr ""
+
+#: ../admin.php:62
+msgid "Show Lost Password Link"
+msgstr "Показывать ссылку для восстановления пароля"
+
+#: ../admin.php:69
+msgid "Show Logged in Avatar"
+msgstr "Показывать аватар после входа"
+
+#: ../admin.php:75
+msgid "Dashboard"
+msgstr "Панель"
+
+#: ../admin.php:75
+msgid "Profile"
+msgstr "Профиль"
+
+#: ../admin.php:76
+msgid "Logged in links"
+msgstr "Ссылки, отображаемые после входа"
+
+#: ../admin.php:77
+#, fuzzy, php-format
+msgid ""
+"One link per line. Note: Logout link will always show regardless. Tip: Add "
+"<code>|true</code> after a link to only show it to admin users or "
+"alternatively use a <code>|user_capability</code> and the link will only be "
+"shown to users with that capability (see <a href='http://codex.wordpress.org/"
+"Roles_and_Capabilities' target='_blank'>Roles and Capabilities</a>).<br/> "
+"You can also type <code>%%USERNAME%%</code> and <code>%%USERID%%</code> "
+"which will be replaced by the user's info. Default: <br/>&lt;a href=\"%s/wp-"
+"admin/\"&gt;Dashboard&lt;/a&gt;<br/>&lt;a href=\"%s/wp-admin/profile.php"
+"\"&gt;Profile&lt;/a&gt;"
+msgstr ""
+"Одна ссылка на каждую строку. Примечание: Ссылка \"Выйти\" будет "
+"отображаться в любом случае. Подсказка: добавьте <code>|true</code> после "
+"ссылки, которую нужно показывать только пользователям с административными "
+"привилегиями. Если вы добавите <code>|USER LEVEL</code>, то ссылка будет "
+"показана только пользователям с уровнем прав, равным или большим, чем вы "
+"укажите. Смотрите <a href='http://codex.wordpress.org/"
+"Roles_and_Capabilities' target='_blank'>http://codex.wordpress.org/"
+"Roles_and_Capabilities</a> для получения более полной информации о ролях и "
+"привилегиях. <br/> Также вы можете использовать <code>%USERNAME%</code> и "
+"<code>%USERID%</code>, что будет заменено информацией о пользователе. По "
+"умолчанию: "
+
+#: ../admin.php:106 ../sidebar-login.php:205
+msgid "Sidebar Login"
+msgstr "Sidebar Login"
+
+#: ../admin.php:119
+#, fuzzy
+msgid "Sidebar Login Options"
+msgstr "Sidebar Login"
+
+#: ../admin.php:175
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+#: ../sidebar-login.php:39
+msgid "Username:"
+msgstr "Имя пользователя:"
+
+#: ../sidebar-login.php:40
+msgid "Password:"
+msgstr "Пароль:"
+
+#: ../sidebar-login.php:41
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: ../sidebar-login.php:42
+msgid "Register"
+msgstr "Регистрация"
+
+#: ../sidebar-login.php:43
+msgid "Password Lost and Found"
+msgstr "Восстановление пароля"
+
+#: ../sidebar-login.php:44
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+
+#: ../sidebar-login.php:45
+msgid "Logout"
+msgstr "Выйти"
+
+#: ../sidebar-login.php:142
+msgid "Login &raquo;"
+msgstr ""
+
+#: ../sidebar-login.php:204
+msgid "Sidebar Login."
+msgstr "Sidebar Login."
+
+#: ../sidebar-login.php:273
+#, fuzzy
+msgid "Please enter your username and password to login."
+msgstr ""
+"<strong>ОШИБКА</strong>: Пожалуйста, введите имя пользователя и пароль."
+
+#~ msgid "<p>Changes saved</p>"
+#~ msgstr "<p>Изменения сохранены</p>"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid ""
+#~ "User registrations must also be turned on for this to work ('Anyone can "
+#~ "register' checkbox in settings)."
+#~ msgstr ""
+#~ "Регистрация пользователей должна быть также включена, чтобы это работало. "
+#~ "(Параметры --> Общие --> опция \"Любой может зарегистрироваться\")."
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Welcome"
+#~ msgstr "Добро пожаловать"
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+#~ "browser. You must <a href='http://www.google.com/cookies.html'>enable "
+#~ "cookies</a> to use WordPress."
+#~ msgstr ""
+#~ "<strong>ОШИБКА</strong>: Cookies отключены или не поддерживаются вашим "
+#~ "браузером. Вы должны <a href='http://www.google.de/cookies.html'>включить "
+#~ "cookies</a>, чтобы использовать WordPress."
+
+#~ msgid ""
+#~ "Or login using an <a href=\"http://openid.net/what/\" title=\"Learn about "
+#~ "OpenID\">OpenID</a>"
+#~ msgstr ""
+#~ "Или войдите, используя <a href=\"http://openid.net/what/\" title=\"Learn "
+#~ "about OpenID\">OpenID</a>"
+
+#~ msgid ""
+#~ "One link per line. Note: Logout link will always show regardless. Tip: "
+#~ "Add <code>|true</code> after a link to only show it to admin users. "
+#~ "Default: <br/>&lt;a href=\""
+#~ msgstr ""
+#~ "Одна ссылка на каждую строку. Примечание: Ссылка \"Выйти\" будет "
+#~ "отображаться в любом случае. Подсказка: добавьте <code>|true</code> после "
+#~ "ссылки, которая должна отображаться для пользователей с административными "
+#~ "привилегиями. По умолчанию: <br/>&lt;a href=\""
