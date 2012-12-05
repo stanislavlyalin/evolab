@@ -44,7 +44,7 @@ get_header();
                  <?php } // END Attachemnt if/esle ?>
 				<?php  ////  PAGE /////////////////////
 				} elseif (is_page()) { ?>
-					<?php the_title('<h2 class="contenttitle">', '</h2>'); ?>
+					<!--?php the_title('<h2 class="contenttitle">', '</h2>'); ?-->
                     <div class="postmeta">  <!-- START postmeta CLASS -->
                   <?php  if ( isset ($swc_options['swc_comments']) &&  ($swc_options['swc_comments'] == "1") ) {         
 } else {
