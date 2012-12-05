@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NotCaptcha for Wordpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-27 23:13+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nikolay Kavunenko <webjema@gmail.com>\n"
+"Language-Team: Webjema <webjema@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: wp-notcaptcha\n"
+"X-Poedit-SearchPath-0: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk\n"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:35
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:120
+msgid "NotCaptcha Options"
+msgstr "Настройки NotCaptcha"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:64
+msgid "You do not have permission for managing this option"
+msgstr "У вас нет прав для управления этой опцией"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:117
+msgid "Options saved."
+msgstr "Настройки сохранены"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:123
+msgid "Your theme must have a"
+msgstr "Ваш шаблон должен содержать"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:123
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "тэг в файле формы комментариев comments.php. В основном в шаблонах он есть."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:124
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "Оптимальное место для этого тэга выше блока textarea. Вы можете перенести его, если он расположен ниже, иначе картинки могут выводиться ниже кнопки отправки формы."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:136
+msgid "NotCaptcha on Register Form:"
+msgstr "NotCaptcha на форме регистрации:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:140
+msgid "Enable NotCaptcha on the register form."
+msgstr "Выводить NotCaptcha на форме регистрации."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:145
+msgid "NotCaptcha on Comment Form:"
+msgstr "NotCaptcha на форме комментирования:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:148
+msgid "Enable NotCaptcha on the comment form."
+msgstr "Выводить NotCaptcha на форме комментирования."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:151
+msgid "Hide NotCaptcha for"
+msgstr "Не выводить NotCaptcha для"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:152
+msgid "registered"
+msgstr "зарегистрированных"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:153
+msgid "users who can:"
+msgstr "пользователей которые могут"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:160
+msgid "Add noise to image:"
+msgstr "Добавить искажения в картинки:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:163
+msgid "Add some shapes to protect the image from recognition"
+msgstr "Добавить разные фигуры для защиты картинок от распознавания"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:168
+msgid "Background color (RGB):"
+msgstr "Цвет фона (RGB):"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:179
+msgid "Problem:"
+msgstr "Проблема:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:180
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "Иногда картинки каптчи выводятся ПОСЛЕ кнопки отправки формы."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:181
+msgid "Fix:"
+msgstr "Решение:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:182
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "Отредактируйте в вашем текущем шаблоне файл comments.php, найдите в нем строку:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:184
+msgid "This tag is exactly where the captcha image and captcha code entry will be displayed on the form, so move the line BEFORE the comment textarea and the problem should be fixed."
+msgstr "Этот тэг именно там, где выводятся картинки каптчи на форме. Переместите эту строку ДО блока textarea и проблема должна решиться."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:187
+msgid "Update Options"
+msgstr "Обновить настройки"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:197
+msgid "All registered users"
+msgstr "Все зарегистрированные"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:198
+msgid "Edit posts"
+msgstr "Редактировать сообщения"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:199
+msgid "Publish Posts"
+msgstr "Публиковать сообщения"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:200
+msgid "Moderate Comments"
+msgstr "Модерировать комментарии"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:201
+msgid "Administer site"
+msgstr "Администратор"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:219
+msgid "ERROR: not-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "ОШИБКА: плагин not-captcha.php сообщает, что поддержка изображений GD не обнаружена в PHP!"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:220
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Свяжитесь с вашим хостингом и уточните почему поддержка изображений GD не включена в PHP."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:224
+msgid "ERROR: not-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "ОШИБКА: плагин not-captcha.php сообщает, что функция  imagepng не обнаружена в PHP!"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:225
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Свяжитесь с вашим хостингом и уточните почему функция imagepng не включена в PHP."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:229
+msgid "ERROR: not-captcha.php plugin says captcha_library not found."
+msgstr "ОШИБКА: плагин not-captcha.php сообщает, что captcha_library не обнаружена."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:322
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:521
+msgid "Before you submit form:"
+msgstr "Перед отправкой формы:"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:324
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:524
+msgid "Place this icons <b>vertical</b>"
+msgstr "Выставьте эти иконки <b>вертикально</b>"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:410
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:610
+msgid "Move the sliders to change angle of images"
+msgstr "Двигайте ползунки для изменения угла картинок"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:410
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:610
+msgid "or just click on images"
+msgstr "или просто кликайте по картинкам"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:411
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:611
+msgid "Reload images"
+msgstr "Обновить картинки"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:414
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:614
+msgid "Please, choose number of <b>vertical</b> image"
+msgstr "Пожалуйста, выберите номера <b>вертикальных</b> картинок"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:418
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:428
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:438
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:618
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:628
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:638
+msgid "- select -"
+msgstr "- выбрать -"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:492
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:690
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:698
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:702
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:718
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:728
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:735
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:739
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:755
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:690
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:728
+msgid "Please complete the Captcha."
+msgstr "Пожалуйста, заполните каптчу"
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:698
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:735
+msgid "You have made too many attempts to enter Captcha. Press your browser`s back button, <b>reload images</b> and try again."
+msgstr "Вы пытались указать каптчу уже много раз. Нажмите в вашем браузере кнопку Назад, <b>обновите картинки</b> и попробуйте еще раз."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:702
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:739
+msgid "Incorrect session. Please, reload web-page."
+msgstr "Не правильная сессия. Пожалуйста, обновите страницу."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:718
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:755
+msgid "That Captcha was incorrect."
+msgstr "Эта каптча не верна."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:790
+msgid "Error: You did not enter a Captcha. Press your browsers back button and try again."
+msgstr "Ошибка: Вы не ввели каптчу. Нажмите в вашем браузере кнопку Назад и повторите."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:795
+msgid "Error: You have made too many attempts to enter Captcha. Press your browser`s back button, <b>reload images</b> and try again."
+msgstr "Ошибка: Вы пытались указать каптчу уже много раз. Нажмите в вашем браузере кнопку Назад, <b>обновите картинки</b> и попробуйте еще раз."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:799
+msgid "Error: Incorrect session. Please, reload web-page."
+msgstr "Ошибка: Не правильная сессия. Пожалуйста, обновите страницу."
+
+#: /Users/mac/Sites/notcaptcha/NotCaptcha/wp-notcaptcha/trunk/not-captcha.php:816
+msgid "Error: You entered in the wrong Captcha. Press your browsers back button and try again."
+msgstr "Ошибка: Вы выставили картинки не правильно. Нажмите в Вашем браузере кнопку Назад и повторите."
+
+#, fuzzy
+#~ msgid ""
+#~ "You have made too many attempts to enter Captcha. Press your browser`s "
+#~ "back button, <b>refresh images</b> and try again."
+#~ msgstr ""
+#~ "Ошибка: Вы не ввели каптчу. Нажмите в вашем браузере кнопку Назад и "
+#~ "повторите."
+
+#~ msgid "Move the sliders to change angle of the images"
+#~ msgstr "Двигайте ползунки для изменения угла картинок"
+
+#~ msgid "That NotCaptcha was incorrect."
+#~ msgstr "Эта каптча не верна."

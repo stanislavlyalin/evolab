@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NotCaptcha fo rWordpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-03 20:11+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Donald <donaldz@live.com>\n"
+"Language-Team: Webjema <webjema@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: wp-notcaptcha\n"
+"X-Poedit-SearchPath-0: F:\\web\\home\\home\\wordpress\\wp-content\\plugins\\wp-notcaptcha\n"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:35
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:96
+msgid "NotCaptcha Options"
+msgstr "NotCaptcha 选项"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:59
+msgid "You do not have permission for managing this option"
+msgstr "你没有权限修改这些选项"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:93
+msgid "Options saved."
+msgstr "选项已保存。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:99
+msgid "Your theme must have a"
+msgstr "你的主题必须有一个"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:99
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "标签在你的comments.php表单中。大多数主题应该都有。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:100
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "评论文本区之前是放置这个标签的最佳位置，如果发现该标签出现在评论文本区之后，或验证图片与验证码条目在“提交”按钮后显示，你可能需要将标签移至适当位置。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:114
+msgid "NotCaptcha on Register Form:"
+msgstr "注册表单上的NotCaptcha："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:118
+msgid "Enable NotCaptcha on the register form."
+msgstr "在注册表单上启用NotCaptcha。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:123
+msgid "NotCaptcha on Comment Form:"
+msgstr "评论表单上的NotCaptcha："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:126
+msgid "Enable NotCaptcha on the comment form."
+msgstr "在评论表单上启用NotCaptcha。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:129
+msgid "Hide NotCaptcha for"
+msgstr "为下列"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:130
+msgid "registered"
+msgstr "已注册"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:131
+msgid "users who can:"
+msgstr "用户隐藏NotCaptcha："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:140
+msgid "Problem:"
+msgstr "问题："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:141
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "有时验证图片和验证码输入区在评论表单的“提交”按钮后出现。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:142
+msgid "Fix:"
+msgstr "解决方案："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:143
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "编辑当前主题的 comments.php 文件并找到下面这行代码："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:145
+msgid "This tag is exactly where the captcha image and captcha code entry will be displayed on the form, so move the line BEFORE the comment textarea and the problem should be fixed."
+msgstr "这个标签就是验证图片和验证码题条目在表单中具体显示的位置，所以，移动这行到评论文本区之前即可解决此问题。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:148
+msgid "Update Options"
+msgstr "更新选项"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:158
+msgid "All registered users"
+msgstr "所有已注册用户"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:159
+msgid "Edit posts"
+msgstr "可编辑文章用户"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:160
+msgid "Publish Posts"
+msgstr "可发布文章用户"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:161
+msgid "Moderate Comments"
+msgstr "可审核评论用户"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:162
+msgid "Administer site"
+msgstr "可管理站点用户"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:180
+msgid "ERROR: not-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "错误： not-captcha.php 插件没有在PHP中发现 GD image 支持！"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:181
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "联系你的主机商咨询为何在PHP中没有启用GD image 支持。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:185
+msgid "ERROR: not-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "错误： not-captcha.php 插件在PHP中没有发现 imagepng 函数！"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:186
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "联系你的主机上咨询为何在PHP中没有启用 imagepng 函数。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:190
+msgid "ERROR: not-captcha.php plugin says captcha_library not found."
+msgstr "错误： not-captcha.php 插件未发现 captcha_library 。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:260
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:419
+msgid "Before you submit form:"
+msgstr "在你提交表单前："
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:262
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:422
+msgid "Place this icons <b>vertical</b>"
+msgstr "请将这三个图标摆放 <b>垂直</b>"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:334
+msgid "Move the sliders to change angle of the images"
+msgstr "移动滑块改变图片角度"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:337
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:497
+msgid "Please, choose number of <b>vertical</b> image"
+msgstr "请选择几个 <b>垂直</b> 的图片"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:390
+msgid "Submit Comment"
+msgstr "发表评论"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:494
+msgid "Move the sliders to change angle of images"
+msgstr "移动滑块改变图片角度"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:547
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:559
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:569
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:580
+msgid "ERROR"
+msgstr "错误"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:547
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:569
+msgid "Please complete the Captcha."
+msgstr "请完成验证码。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:559
+msgid "That Captcha was incorrect."
+msgstr "那个验证码不正确。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:580
+msgid "That NotCaptcha was incorrect."
+msgstr "那个 NotCaptcha 不正确。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:615
+msgid "Error: You did not enter a Captcha. Press your browsers back button and try again."
+msgstr "错误： 你没有输入验证码。 请点击你的浏览器 后退 按钮重试。"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:624
+msgid "Error: You entered in the wrong Captcha. Press your browsers back button and try again."
+msgstr "错误： 你输入了错误的验证码。 请点击你的浏览器 后退 按钮重试。"
+

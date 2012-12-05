@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NotCaptcha for Wordpress in italiano\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-03 20:11+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nick <webjema@gmail.com>\n"
+"Language-Team: Gianni Diurno | http://gidibao.net/ <gidibao@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: wp-notcaptcha\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SearchPath-0: F:\\web\\home\\home\\wordpress\\wp-content\\plugins\\wp-notcaptcha\n"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:35
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:96
+msgid "NotCaptcha Options"
+msgstr "Opzioni NotCaptcha"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:59
+msgid "You do not have permission for managing this option"
+msgstr "Non hai i permessi necessari per gestire questa opzione"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:93
+msgid "Options saved."
+msgstr "Le opzioni sono state salvate."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:99
+msgid "Your theme must have a"
+msgstr "Il tuo tema deve contenere un"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:99
+msgid "tag inside your comments.php form. Most themes do."
+msgstr "tag contenuto nel form sotto comments.php. La maggior parte dei temi lo ha."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:100
+msgid "The best place to locate the tag is before the comment textarea, you may want to move it if it is below the comment textarea, or the captcha image and captcha code entry might display after the submit button."
+msgstr "Il miglior posto dove inserire il tag é prima dell'area di testo per i commenti eventualmente, potrai spostarlo qualora fosse posizionato sotto l'area di testo per i commenti oppure nel caso in cui desiderassi che l'immagine captcha ed il codice captcha vengano mostrati sotto il pulsante di invio."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:114
+msgid "NotCaptcha on Register Form:"
+msgstr "NotCaptcha per il modulo di registrazione:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:118
+msgid "Enable NotCaptcha on the register form."
+msgstr "Attiva NotCaptcha per il modulo di registrazione."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:123
+msgid "NotCaptcha on Comment Form:"
+msgstr "NotCaptcha per il modulo dei commenti:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:126
+msgid "Enable NotCaptcha on the comment form."
+msgstr "Attiva NotCaptcha per il modulo dei commenti."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:129
+msgid "Hide NotCaptcha for"
+msgstr "Nascondi NotCaptcha per"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:130
+msgid "registered"
+msgstr "gli utenti registrati"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:131
+msgid "users who can:"
+msgstr "che possono:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:140
+msgid "Problem:"
+msgstr "Problema:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:141
+msgid "Sometimes the captcha image and captcha input field are displayed AFTER the submit button on the comment form."
+msgstr "potrebbe accadere che l'immagina captcha ed il campo per l'inserimento dei dati vengano mostrati DOPO il pulsante di invio del modulo dei commenti."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:142
+msgid "Fix:"
+msgstr "Soluzione:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:143
+msgid "Edit your current theme comments.php file and locate this line:"
+msgstr "individua questa linea e modifica il file comments.php del tuo tema in uso:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:145
+msgid "This tag is exactly where the captcha image and captcha code entry will be displayed on the form, so move the line BEFORE the comment textarea and the problem should be fixed."
+msgstr "Questo tag farà sì che l'immagine ed il codice captcha siano mostrati nel modulo. Sposta la linea PRIMA dell'area di testo per i commenti ed il problema sarà risolto."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:148
+msgid "Update Options"
+msgstr "Aggiorna le opzioni"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:158
+msgid "All registered users"
+msgstr "tutti gli utenti registrati"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:159
+msgid "Edit posts"
+msgstr "modifica articoli"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:160
+msgid "Publish Posts"
+msgstr "pubblica articoli"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:161
+msgid "Moderate Comments"
+msgstr "modera commenti"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:162
+msgid "Administer site"
+msgstr "amministratore sito"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:180
+msgid "ERROR: not-captcha.php plugin says GD image support not detected in PHP!"
+msgstr "ERRORE: il plugin not-captcha.php non ha rilevato nel PHP alcun supporto GD image!"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:181
+msgid "Contact your web host and ask them why GD image support is not enabled for PHP."
+msgstr "Contatta il tuo fornitore di hosting e domanda perché il supporto GD image non é stato attivato per il PHP."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:185
+msgid "ERROR: not-captcha.php plugin says imagepng function not detected in PHP!"
+msgstr "ERRORE: il plugin not-captcha.php non ha rilevato nel PHP la funzione imagepng!"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:186
+msgid "Contact your web host and ask them why imagepng function is not enabled for PHP."
+msgstr "Contatta il tuo fornitore di hosting e domanda perché la funzione imagepng non é stata attivata per il PHP."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:190
+msgid "ERROR: not-captcha.php plugin says captcha_library not found."
+msgstr "ERRORE: il plugin not-captcha.php non ha trovato la captcha_library!"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:260
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:419
+msgid "Before you submit form:"
+msgstr "Prima di inviare il commento:"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:262
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:422
+msgid "Place this icons <b>vertical</b>"
+msgstr "poni queste icone in <b>verticale</b>"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:334
+msgid "Move the sliders to change angle of the images"
+msgstr "Sposta i cursori per modificare l'angolo della immagine"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:337
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:497
+msgid "Please, choose number of <b>vertical</b> image"
+msgstr "Scegli il numero delle immagini <b>verticali</b>"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:390
+msgid "Submit Comment"
+msgstr "Invia commento"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:494
+msgid "Move the sliders to change angle of images"
+msgstr "Sposta i cursori per modificare l'angolo delle immagini"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:547
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:559
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:569
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:580
+msgid "ERROR"
+msgstr "ERRORE"
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:547
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:569
+msgid "Please complete the Captcha."
+msgstr "Compila il captcha."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:559
+msgid "That Captcha was incorrect."
+msgstr "Il captcha non é corretto."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:580
+msgid "That NotCaptcha was incorrect."
+msgstr "NotCaptcha non corretto."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:615
+msgid "Error: You did not enter a Captcha. Press your browsers back button and try again."
+msgstr "Errore: non hai inserito un Captcha. Premi il pulsante indietro del browser e riprova."
+
+#: F:\web\home\home\wordpress\wp-content\plugins\wp-notcaptcha/not-captcha.php:624
+msgid "Error: You entered in the wrong Captcha. Press your browsers back button and try again."
+msgstr "Errore: hai inserito il Captcha sbagliato. Premi il pulsante indietro del browser e riprova."
+
