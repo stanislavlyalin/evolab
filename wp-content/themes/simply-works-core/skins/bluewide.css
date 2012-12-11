@@ -144,7 +144,7 @@ background-color:#0091d4;
     background: #c5e5fe;
 }
 .commentlist > li.bypostauthor {
-    background-color: #c5e5fe;
+    /*background-color: #c5e5fe;*/
 }.commentlist > li.bypostauthor:before {
 	content: url(../images/comment-arrow-bypostauthor-blue.png);
 }

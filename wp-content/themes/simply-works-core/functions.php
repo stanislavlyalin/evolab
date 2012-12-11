@@ -224,4 +224,12 @@ function get_current_user_role() {
   $role = array_shift($roles);
   return $wp_roles->role_names[$role];
 }
+
+// подключение файла с JavaScript-функциями
+if ( !is_admin() ) {
+  function register_my_js() {
+      wp_enqueue_script( 'functions', get_bloginfo( 'template_directory' ).'/functions.js', array( 'jquery' ), '1.0', true );
+  }
+  add_action('init', 'register_my_js');
+}
 ?>

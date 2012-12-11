@@ -1350,9 +1350,14 @@ class Walker_Comment extends Walker {
 ?>
 		<<?php echo $tag ?> <?php comment_class(empty( $args['has_children'] ) ? '' : 'parent') ?> id="comment-<?php comment_ID() ?>">
 		<?php if ( 'div' != $args['style'] ) : ?>
-		<div id="div-comment-<?php comment_ID() ?>" class="comment-body">
+		<div id="div-comment-<?php comment_ID() ?>" class="my-comment-body">
 		<?php endif; ?>
-		<div class="comment-author vcard">
+		<div class="comment-meta commentmetadata comment-author vcard">
+			<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
+			<?php
+				/* translators: 1: date, 2: time */
+				printf( __('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)'),'&nbsp;&nbsp;','' );
+			?>
 		<?php if ($args['avatar_size'] != 0) echo get_avatar( $comment, $args['avatar_size'] ); ?>
 		<?php printf(__('<cite class="fn">%s</cite> <span class="says">says:</span>'), get_comment_author_link()) ?>
 		</div>
@@ -1360,15 +1365,7 @@ class Walker_Comment extends Walker {
 		<em class="comment-awaiting-moderation"><?php _e('Your comment is awaiting moderation.') ?></em>
 		<br />
 <?php endif; ?>
-
-		<div class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>">
-			<?php
-				/* translators: 1: date, 2: time */
-				printf( __('%1$s at %2$s'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)'),'&nbsp;&nbsp;','' );
-			?>
-		</div>
-
-		<?php comment_text() ?>
+	<?php comment_text() ?>
 
 		<div class="reply">
 		<?php comment_reply_link(array_merge( $args, array('add_below' => $add_below, 'depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
@@ -1539,7 +1536,7 @@ function comment_form( $args = array(), $post_id = null ) {
 		'must_log_in'          => '<p class="must-log-in">' . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		'logged_in_as'         => '<p class="logged-in-as">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</p>',
 		'comment_notes_before' => '<p class="comment-notes">' . __( 'Your email address will not be published.' ) . ( $req ? $required_text : '' ) . '</p>',
-		'comment_notes_after'  => '<p class="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ), ' <code>' . allowed_tags() . '</code>' ) . '</p>',
+		//'comment_notes_after'  => '<p class="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ), ' <code>' . allowed_tags() . '</code>' ) . '</p>',
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',
 		'title_reply'          => __( 'Leave a Reply' ),

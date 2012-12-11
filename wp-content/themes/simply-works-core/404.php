@@ -12,11 +12,9 @@ get_header();
 <div id="mainbody">
   <div class="wrapper">
    <div id="contentarea">
-     <h2 class="contenttitle"><?php _e('Error 404 - Page Not Found', 'simplyworks') ?></h2>
-        <?php _e('<p><strong>We\'re very sorry, but that page doesn\'t exist or has been moved.</strong><br />
-Please make sure you have the right URL.</p>
-<p>If you still can\'t find what you\'re looking for, try using the search form below.</p>', 'simplyworks') ?>
-         <?php get_search_form(); ?>
+     <h2 class="contenttitle"><?php _e('Ошибка 404 - Страница не найдена', 'simplyworks') ?></h2>
+        <?php _e('<p><strong>Похоже, запрашиваемая страница не существует или перенесена</strong><br />
+Пожалуйста, убедитесь, что Вы ввели правильный URL</p>', 'simplyworks') ?>
    </div><!-- END contentarea -->
 <?php get_sidebar(); ?>
      <div class="clear"></div>

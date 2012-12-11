@@ -29,11 +29,11 @@ License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 	^5 Sub Navbar 
 	^6 Main Body section
 		^6a Content Area
-        ^6b Author Block
-        ^6c Bottom Content Links
-        ^6d Images
-        ^6e Drop shadow for Featured images 
-        ^6f Related post wp_related_post plugin
+    ^6b Author Block
+    ^6c Bottom Content Links
+    ^6d Images
+    ^6e Drop shadow for Featured images 
+    ^6f Related post wp_related_post plugin
      ^7 Comments and Trackbacks
      ^8 Sidebar 
      ^9 Lower Narrow Left Sidebar  
@@ -116,7 +116,7 @@ border-width:0 0 5px 0;
 }
 
 #headerleft {
-	width: 460px;
+	width: 760px;
 	float: left;
 	margin: 0px;
 	padding: 0 0 10px 7px;
@@ -379,7 +379,7 @@ text-transform:uppercase;
 ************************************************/
 #contentarea {
 float: left;
-width: 665px;
+width: 670px;
 padding: 0 7px;
 }	
 
@@ -547,6 +547,29 @@ margin: 5px 0 35px;
 
 #contentarea .more-link:hover {
     background: #333333;
+}
+
+.rounded_div {
+	border-radius: 2px;
+	border: 1px solid #88B7E5;
+	background-color: #EFF3F7;
+	padding: 15px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.category_column {
+	float: left;
+	width: 50%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.category_content {
+	color: gray;
+	margin-left: 20px;
 }
 
 /************************************************
@@ -735,19 +758,19 @@ border: #CCC 1px solid;
 .commentlist {
 	list-style: none;
 	margin: 0 auto;
-	width: 80%;
+	/*width: 100%;*/
 }
 .content .commentlist,
 .page-template-sidebar-page-php .commentlist {
 	width: 100%; /* reset the width for the one-column and sidebar page layout */
 }
 .commentlist > li.comment {
-	background: #f6f6f6;
-	border: 1px solid #ddd;
+	/*background: #f6f6f6;*/
+	/*border: 1px solid #ddd;*/
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	margin: 0 0 1.1em;
-	padding: 1.1em;
+	/*padding: 1.1em;*/
 	position: relative;
 }
 .commentlist .pingback {
@@ -767,12 +790,12 @@ border: #CCC 1px solid;
 }
 
 .commentlist .children li.comment {
-	background: #fff;
-	border-left: 1px solid #ddd;
+	/*background: #fff;*/
+	/*border-left: 1px solid #ddd;*/
 	-moz-border-radius: 0 3px 3px 0;
 	border-radius: 0 3px 3px 0;
-	margin: 1.1em 0 0;
-	padding: 1.1em;
+	/*margin: 1.1em 0 0;*/
+	padding: 4px 0px;
 	position: relative;
 }
 
@@ -798,17 +821,19 @@ border: #CCC 1px solid;
 .comment-meta a:hover {
 }
 .commentlist .avatar {
+	padding: 10px 0px 0px 30px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	-webkit-box-shadow: 0 1px 2px #ccc;
+	/*-webkit-box-shadow: 0 1px 2px #ccc;
 	-moz-box-shadow: 0 1px 2px #ccc;
-	box-shadow: 0 1px 2px #ccc;
+	box-shadow: 0 1px 2px #ccc;*/
 	left: -70px;
-	padding: 0;
+	/*padding: 0;*/
 	position: absolute;
 	top: 0;
 }
 .commentlist > li:before {
+	display: none;
 	content: url(images/comment-arrow.png);
 	left: -21px;
 	position: absolute;
@@ -821,7 +846,8 @@ border: #CCC 1px solid;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	padding: 20px 0 0 25px;
+	/*padding: 20px 0 0 25px;*/
+	padding: 10px 0 0 30px;
 }
 a.comment-reply-link {
 	background: #eee;
@@ -847,8 +873,8 @@ a.comment-reply-link > span {
 
 /* Post author highlighting */
 .commentlist > li.bypostauthor {
-	background: #FFFFCC;
-	border-color: #d3d3d3;
+	/*background: #FFFFCC;*/
+	/*border-color: #d3d3d3;*/
 }
 .commentlist > li.bypostauthor .comment-meta {
 	color: #575757;
@@ -863,7 +889,7 @@ a.comment-reply-link > span {
 
 /* Post Author threaded comments */
 .commentlist .children > li.bypostauthor {
-	background: #ddd;
+	/*background: #ddd;*/
 }
 
 .older-comment-links {
@@ -871,6 +897,13 @@ a.comment-reply-link > span {
 
 #respond {
 	clear:both;
+}
+
+.my-comment-body {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 0px;
+	padding: 0px;
 }
 
 /************************************************
@@ -1088,7 +1121,7 @@ margin: 0 0 0 15px;
 }
 
 .flinks ul.children li{ 
-margin: 0 5px 0 15px; 
+margin: 0 5px 0 15px;
 }
 
 

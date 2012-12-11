@@ -33,8 +33,8 @@ endif;
  <div id="copyright"><!-- START copyright ID -->
      <div class="wrapper"><!-- START wrapper CLASS -->
         <div class="copycolumn">
-	    	<p class="right"><?php _e("Built on", "simplyworks");?> <a href="http://www.simplyworkscore.com" title="Simply Works Core">Simply Works Core</a><br />
-    	     Powered by <a href="http://wordpress.org" title="WordPress">WordPress</a></p>
+	    	<p class="right"><?php _e("Построено на", "simplyworks");?> <a href="http://www.simplyworkscore.com" title="Simply Works Core">Simply Works Core</a><br />
+    	     Работает на <a href="http://wordpress.org" title="WordPress">WordPress</a></p>
        </div>
 	    <div class="copycolumnwide">
 	    	<p>Copyright &copy; <a href="<?php esc_url(bloginfo('url')); ?>"><?php esc_attr(strip_tags(bloginfo('name'))); ?></a><br /><em><?php esc_attr(strip_tags(bloginfo('description'))); ?></em></p>

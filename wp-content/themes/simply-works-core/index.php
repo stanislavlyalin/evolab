@@ -7,7 +7,7 @@ Author: Jason Huber
 Version: 1.5.8
 Description: Primary Index Page for the core
  */
-get_header(); 
+get_header();
 ?>
 <div id="mainbody"> <!-- START mainbody ID -->
    <div class="wrapper"> <!-- START wrapper CLASS -->
@@ -24,17 +24,17 @@ get_header();
                          <div class="postmeta"> <!-- START postmeta CLASS -->
  <?php  if(isset($swc_options['swc_author']) &&  ($swc_options['swc_author'] == "1")) {         
 } else { ?>
-	<span class="author"><?php _e("by: ", "simplyworks");?><?php the_author(); ?></span> - 
+	<span class="author"><?php _e("Автор: ", "simplyworks");?><?php the_author(); ?></span> - 
 <?php } ?>
 <?php  if(isset($swc_options['swc_date']) &&  ($swc_options['swc_date'] == "1")) {         
 } else { ?>	
 <?php the_time(__('F jS, Y', 'simplyworks'))?>&nbsp;&nbsp;
 <?php } ?>
                         
-<?php edit_post_link('Edit', '<span class="edit">', '</span>   '); ?> 
+<?php edit_post_link('Редактировать', '<span class="edit">', '</span>   '); ?> 
 <?php  if ( isset ($swc_options['swc_comments']) &&  ($swc_options['swc_comments'] == "1") ) {         
 } else {
-	comments_popup_link('Add Comment', '1 Comment', '% Comments', 'comm', '');
+	comments_popup_link('Добавить комментарий', '1 Comment', '% Comments', 'comm', '');
 }
 ?>
 					    </div> <!-- END postmeta CLASS -->
@@ -48,7 +48,7 @@ get_header();
                     <div class="postmeta">  <!-- START postmeta CLASS -->
                   <?php  if ( isset ($swc_options['swc_comments']) &&  ($swc_options['swc_comments'] == "1") ) {         
 } else {
-	comments_popup_link('Add Comment', '1 Comment', '% Comments', 'comm', '');
+	comments_popup_link('Добавить комментарий', '1 Comment', '% Comments', 'comm', '');
 }
 ?>
 					</div> <!-- END postmeta CLASS -->
@@ -62,7 +62,7 @@ get_header();
                     <div class="postmeta"> <!-- START postmeta CLASS -->
 <?php  if(isset($swc_options['swc_author']) &&  ($swc_options['swc_author'] == "1")) {         
 } else { ?>
-	<span class="author"><?php _e("by: ", "simplyworks");?><?php the_author(); ?></span> - 
+	<span class="author"><?php _e("Автор: ", "simplyworks");?><?php the_author(); ?></span> - 
 <?php } ?>
 <?php  if(isset($swc_options['swc_date']) &&  ($swc_options['swc_date'] == "1")) {         
 } else { ?>	
@@ -70,12 +70,12 @@ get_header();
 <?php } ?>
 <?php  if(isset($swc_options['swc_filed']) &&  ($swc_options['swc_filed'] == "1")) {         
 } else { ?>	
-<?php  _e("Filed under: ", 'simplyworks'); ?> <?php the_category(', ') ?>  
+<?php  _e("Категория: ", 'simplyworks'); ?> <?php the_category(', ') ?>  
 <?php } ?>
-<?php edit_post_link('Edit', '<span class="edit">', '</span>   '); ?> 
+<?php edit_post_link('Редактировать', '<span class="edit">', '</span>   '); ?> 
 <?php  if ( isset ($swc_options['swc_comments']) &&  ($swc_options['swc_comments'] == "1") ) {         
 } else {
-	comments_popup_link('Add Comment', '1 Comment', '% Comments', 'comm', '');
+	comments_popup_link('Добавить комментарий', '1 Comment', '% Comments', 'comm', '');
 }
 ?>               
 
@@ -85,14 +85,14 @@ get_header();
                     <?php } ?>
 				<?php } ?>
                    <div class="entry">
-                     <?php the_content(__(' Read More ', 'simplyworks')); ?>
+                     <?php the_content(__(' Читать дальше... ', 'simplyworks')); ?>
 				   </div>
                    <div class="clear"></div><!--  content may have floats we need to clear -->
                   <?php wp_link_pages('before=<div class="pagelinks">' . __('<strong>Pages: </strong>', 'simplyworks') .'&after=</div>'); ?>
                   
 <?php  if(isset($swc_options['swc_tags']) &&  ($swc_options['swc_tags'] == "1")) {       
 } else {  
-the_tags('<div class="tags"><strong>Tags: </strong>', ', ', '</div>'); 
+the_tags('<div class="tags"><strong>Теги: </strong>', ', ', '</div>'); 
 } ?>
                     
                   <?php if (is_single()) { // author information if is_single 
@@ -123,11 +123,11 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 				<div class="left nextlink"><?php next_image_link('', __('&lt;&lt; view previous', 'simplyworks')); ?></div>
 				<div class="right nextlink"><?php previous_image_link('', __('view next &gt;&gt;', 'simplyworks')); ?></div>
 			<?php } elseif (is_single()) { ?>
-                <div class="left"><?php previous_post_link(__('&lt;&lt; %link', 'simplyworks')); ?></div>
-				<div class="right"><?php next_post_link(__('%link &gt;&gt;', 'simplyworks')); ?></div> 				
+                <div class="left"><!--?php previous_post_link(__('&lt;&lt; %link', 'simplyworks')); ?--></div>
+				<div class="right"><!--?php next_post_link(__('%link &gt;&gt;', 'simplyworks')); ?--></div> 				
 			<?php } else { ?>
-				<div class="left nextlink"><?php next_posts_link(__('&lt;&lt; previous entries', 'simplyworks')); ?></div>
-				<div class="right nextlink"><?php previous_posts_link(__('recent entries &gt;&gt;', 'simplyworks')); ?></div>
+				<div class="left nextlink"><!--?php next_posts_link(__('&lt;&lt; previous entries', 'simplyworks')); ?--></div>
+				<div class="right nextlink"><!--?php previous_posts_link(__('recent entries &gt;&gt;', 'simplyworks')); ?--></div>
 			<?php } ?> 
               <div class="clear"></div>
 			</div><!-- END lowernav ID -->
