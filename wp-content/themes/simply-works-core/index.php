@@ -12,6 +12,11 @@ get_header();
 <div id="mainbody"> <!-- START mainbody ID -->
    <div class="wrapper"> <!-- START wrapper CLASS -->
 	  <div id="contentarea"> <!-- START contentarea CLASS -->
+      <?php if ( strlen( category_description() ) > 0 ) : ?>
+        <br/>
+        <span style="font-size: 110%"><?php echo category_description(); ?></span>
+        <hr style="color: #BBB; background-color:#BBB; border:0px none; height:1px; clear:both;"/>
+      <?php endif; ?>
 	 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 	   <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
 		<?php // SINGLE //
