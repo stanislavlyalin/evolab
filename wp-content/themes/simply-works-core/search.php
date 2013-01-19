@@ -12,7 +12,7 @@ get_header(); ?>
  <div class="wrapper">
   <div id="contentarea">
 	<?php if (have_posts()) : ?>
-	   <h2 class="contenttitle">Search Results</h2>
+	   <h2 class="contenttitle">Результаты поиска</h2>
 		<?php while (have_posts()) : the_post(); ?>
            <h2 class="contenttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
                 <div class="postmeta"> <!-- START postmeta CLASS -->
@@ -33,7 +33,7 @@ get_header(); ?>
 		    <div class="right nextlink"><?php previous_posts_link(__('recent entries &gt;&gt;', 'simplyworks')); ?></div> 
 
 	<?php else : ?>
-	 <h2 class="contenttitle"><?php _e('No posts found. Try a different search?', 'simplyworks'); ?></h2>
+	 <h2 class="contenttitle"><?php _e('Ничего не найдено. Попробуйте новый запрос', 'simplyworks'); ?></h2>
 		<?php get_search_form(); ?>
 	<?php endif; ?>
 

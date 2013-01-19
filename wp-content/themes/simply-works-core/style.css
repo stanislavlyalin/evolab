@@ -116,7 +116,7 @@ border-width:0 0 5px 0;
 }
 
 #headerleft {
-	width: 760px;
+	width: 900px;
 	float: left;
 	margin: 0px;
 	padding: 0 0 10px 7px;
@@ -164,6 +164,16 @@ text-transform:uppercase;
 
 #headerad {
 	height: 60px;
+}
+
+.headerquote {
+	float: right;
+  color: white;
+  width: 400px;
+  font-style: italic;
+  text-align: right;
+  padding-top: 20px;
+  color: #CCC;
 }
 
 .rsslink {
@@ -572,6 +582,18 @@ li {
 	margin-left: 20px;
 }
 
+.no_border {
+	border: none;
+}
+
+.member_photo_cell {
+	width: 160px;
+}
+
+.valign_top {
+	vertical-align: top;
+}
+
 /************************************************
 * ^6b Author Block
 ************************************************/
@@ -690,7 +712,18 @@ img {border: none; max-width: 660px; height:auto;}
 	font-weight: normal;
 	line-height: 12px;
 	}
-	
+
+/* фотография участника на странице "О клубе" */
+.member_photo {
+	width: 			150px;
+	border: 		3px solid white;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin-top: 15px;
+}
+.member_photo_small {
+	width: 40px;
+}
+
 /************************************************
 *	^6e Drop shadow for featured images  
 ************************************************/	

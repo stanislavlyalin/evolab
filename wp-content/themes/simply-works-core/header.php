@@ -33,7 +33,13 @@ if ( isset ($swc_options['swc_stylesheet']) &&  ($swc_options['swc_stylesheet'] 
     $is_header_image = get_header_image();
 	/// Check to see if the user added a custom image 
    if($is_header_image == NULL) {echo "style=\"height: auto\" ";} ?>><!-- START  wrapper CLASS -->
-     <div id="headerleft"><!-- Logo area -->   
+
+    <img style="float: left; padding: 15px 20px 0px 0px" src="http://localhost/evolab/wp-content/uploads/2013/01/Logo_small2.png"/>
+
+     <div id="headerleft"><!-- Logo area -->
+      <div class="headerquote">
+        Три пути ведут к знанию: путь размышления - это путь самый благородный, путь подражания - это путь самый легкий и путь опыта - это путь самый горький. (Конфуций)
+      </div>
 <?php if ( isset ($swc_options['swc_logo']) &&  ($swc_options['swc_logo']!="") ) {
 ?>	
  <div class="logo" <?php // add a little space around the logo WITHOUT a custom header image

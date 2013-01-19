@@ -232,4 +232,74 @@ if ( !is_admin() ) {
   }
   add_action('init', 'register_my_js');
 }
+//------------------------------------------------------------------------------
+
+function shortcode_member( $avatar, $anchor, $name, $content ) {
+  $html = <<<HTML
+  <table class="no_border">
+    <tr>
+      <td style="width: 40px"><img class="member_photo_small" src="$avatar"/></td>
+      <td><h3><a href="http://localhost/evolab/about/#$anchor">$name</a> считает:</h3></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>$content</td>
+    </tr>
+  </table>
+HTML;
+  return $html;
+}
+
+function shortcode_elena_egorova( $atts, $content ) {
+  return shortcode_member( "http://localhost/evolab/wp-content/uploads/2013/01/elena_egorova.png",
+    "elena_egorova", "Елена Егорова", $content );
+}
+
+function shortcode_aleksey_borisov( $atts, $content ) {
+  return shortcode_member( "http://localhost/evolab/wp-content/uploads/2013/01/aleksey_borisov.png",
+    "aleksey_borisov", "Алексей Борисов", $content );
+}
+
+function shortcode_lydmila_izmestieva( $atts, $content ) {
+  return shortcode_member( "http://localhost/evolab/wp-content/uploads/2013/01/lydmila_izmestyeva.png",
+    "lydmila_izmestieva", "Людмила Изместьева", $content );
+}
+
+function shortcode_stanislav_lyalin( $atts, $content ) {
+  return shortcode_member( "http://localhost/evolab/wp-content/uploads/2013/01/stanislav_lyalin.png",
+    "stanislav_lyalin", "Станислав Лялин", $content );
+}
+
+function shortcode_milozar_laptev( $atts, $content ) {
+  return shortcode_member( "http://localhost/evolab/wp-content/uploads/2013/01/milozar_laptev.png",
+    "milozar_laptev", "Милозар Лаптев", $content );
+}
+
+function shortcode_club_member( $atts, $content ) {
+  $html = <<<HTML
+<table class="no_border">
+  <tr>
+    <td class="member_photo_cell">
+      <img src="{$atts['avatar']}" class="member_photo"/>
+    </td>
+    <td class="valign_top">
+      <h3><a name="{$atts['latin']}">{$atts['name']}</a></h3>
+      $content
+    </td>
+  </tr>
+</table>
+HTML;
+  return $html;
+}
+
+// шорткоды участников клуба
+add_shortcode( 'елена_егорова',      'shortcode_elena_egorova'      );
+add_shortcode( 'алексей_борисов',    'shortcode_aleksey_borisov'    );
+add_shortcode( 'людмила_изместьева', 'shortcode_lydmila_izmestieva' );
+add_shortcode( 'станислав_лялин',    'shortcode_stanislav_lyalin'   );
+add_shortcode( 'милозар_лаптев',     'shortcode_milozar_laptev'     );
+
+// шорткод для добавления нового участника
+add_shortcode( 'club_member', 'shortcode_club_member' );
+//------------------------------------------------------------------------------
 ?>

@@ -22,7 +22,8 @@ a:active {color: #0091d4;}
 *	Header  									*
 ************************************************/
 #header {
-background-color: #00111D;
+/*background-color: #00111D;*/
+  background-color: #061D2C;
 }
 #header .wrapper{
 background: none;
