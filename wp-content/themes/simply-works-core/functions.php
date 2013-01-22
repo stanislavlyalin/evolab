@@ -275,31 +275,11 @@ function shortcode_milozar_laptev( $atts, $content ) {
     "milozar_laptev", "Милозар Лаптев", $content );
 }
 
-function shortcode_club_member( $atts, $content ) {
-  $html = <<<HTML
-<table class="no_border">
-  <tr>
-    <td class="member_photo_cell">
-      <img src="{$atts['avatar']}" class="member_photo"/>
-    </td>
-    <td class="valign_top">
-      <h3><a name="{$atts['latin']}">{$atts['name']}</a></h3>
-      $content
-    </td>
-  </tr>
-</table>
-HTML;
-  return $html;
-}
-
 // шорткоды участников клуба
 add_shortcode( 'елена_егорова',      'shortcode_elena_egorova'      );
 add_shortcode( 'алексей_борисов',    'shortcode_aleksey_borisov'    );
 add_shortcode( 'людмила_изместьева', 'shortcode_lydmila_izmestieva' );
 add_shortcode( 'станислав_лялин',    'shortcode_stanislav_lyalin'   );
 add_shortcode( 'милозар_лаптев',     'shortcode_milozar_laptev'     );
-
-// шорткод для добавления нового участника
-add_shortcode( 'club_member', 'shortcode_club_member' );
 //------------------------------------------------------------------------------
 ?>
