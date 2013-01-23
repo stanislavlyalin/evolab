@@ -34,7 +34,7 @@ if ( isset ($swc_options['swc_stylesheet']) &&  ($swc_options['swc_stylesheet'] 
 	/// Check to see if the user added a custom image 
    if($is_header_image == NULL) {echo "style=\"height: auto\" ";} ?>><!-- START  wrapper CLASS -->
 
-    <a href="<?php get_site_url(); ?>"><img style="float: left; padding: 15px 20px 0px 0px" src="http://localhost/evolab/wp-content/uploads/2013/01/Logo_small2.png"/></a>
+    <a href="<?php echo get_site_url(); ?>"><img style="float: left; padding: 15px 20px 0px 0px" src="http://localhost/evolab/wp-content/uploads/2013/01/Logo_small2.png"/></a>
 
      <div id="headerleft"><!-- Logo area -->
       <div class="headerquote">
