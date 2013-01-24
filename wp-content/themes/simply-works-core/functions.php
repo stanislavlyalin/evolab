@@ -294,13 +294,13 @@ add_shortcode( 'людмила_изместьева', 'shortcode_lydmila_izmesti
 add_shortcode( 'станислав_лялин', 'shortcode_stanislav_lyalin' );
 add_shortcode( 'милозар_лаптев', 'shortcode_milozar_laptev' );
 
-//------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------------
 // выводи списка ссылок пагинации
 function wp_corenavi( $category_id, $posts_per_page, $current_page ) {
   $q = new WP_Query( array('cat'            => $category_id, 'posts_per_page' => $posts_per_page) );
 
   // подготовка данных для ссылок
-  $a['base']      = str_replace( 999999999, '%#%', get_pagenum_link( 999999999 ) );
+  //$a['base']      = str_replace( 999999999, '%#%', get_pagenum_link( 999999999 ) );
   $a['total']     = $q->max_num_pages;
   $a['current']   = $current_page;
   $a['show_all']  = true;
@@ -309,4 +309,5 @@ function wp_corenavi( $category_id, $posts_per_page, $current_page ) {
   // вывод ссылок на экран
   echo "<div>" . paginate_links( $a ) . "</div>";
 }
+//--------------------------------------------------------------------------------------------------
 ?>
