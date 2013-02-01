@@ -1572,11 +1572,7 @@ function comment_form( $args = array(), $post_id = null ) {
 							?>
 						<?php endif; ?>
 						<?php echo apply_filters( 'comment_form_field_comment', $args['comment_field'] ); ?>
-
-                                                <!-- формирование выпадающего списка для адресации комментария члену клуба -->
-                                                <?php echo address_to_club_member_combo_box(); ?>
-						
-                                                <!-- кнопка "Отправить комментарий" -->
+						<?php echo $args['comment_notes_after']; ?>
 						<p class="form-submit">
 							<input name="submit" type="submit" id="<?php echo esc_attr( $args['id_submit'] ); ?>" value="<?php echo esc_attr( $args['label_submit'] ); ?>" />
 							<?php comment_id_fields( $post_id ); ?>
@@ -1590,32 +1586,4 @@ function comment_form( $args = array(), $post_id = null ) {
 			<?php do_action( 'comment_form_comments_closed' ); ?>
 		<?php endif; ?>
 	<?php
-}
-
-/**
- * Возвращает HTML-код выпадающего списка, содержащего имена и email участников клуба
- * Этот список нужен для того, чтобы адресовать комментарий участнику
- * 
- * @return HTML-код выпадающенр списка
- */
-function address_to_club_member_combo_box() {
-    $names = array(
-        array( 'name' => '',                    'email' => '' ),    // никому не адресовывать
-        array( 'name' => 'Клубу',               'email' => '' ),    // адресовать всем
-        array( 'name' => 'Елене Егоровой',      'email' => 'helenrokken@gmail.com' ),
-        array( 'name' => 'Алексею Борисову',    'email' => 'alex.cankxya@gmail.com' ),
-        array( 'name' => 'Людмиле Изместьевой', 'email' => '' ),
-        array( 'name' => 'Станиславу Лялину',   'email' => 'lyalinstas@gmail.com' ),
-        array( 'name' => 'Милозару Лаптеву',    'email' => '' ),
-    );
-
-    foreach ( $names as $person ) {
-        $names[1]['email'] .= ( $person['email'] . ', ' );
-    }
-    
-    $options = "";
-    foreach ( $names as $person ) {
-        $options .= "<option value='" . $person['email'] . "'>" . $person['name'] . "</option>";
-    }
-    return "Адресовать комментарий <select name='subject'>" . $options . "</select>";
 }

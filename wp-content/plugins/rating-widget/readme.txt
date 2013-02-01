@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: rate, rating, ratings, vote, votes, voting, star, like, widget, widgets, sidebar, comment, comments, post, posts, page, google, admin, plugin, ajax, buddypress, bbpress
 Requires at least: 2.6
 Tested up to: 3.4.2
-Stable tag: 1.6.7
+Stable tag: 1.6.9
 
 Create and manage Rating-Widget Thumb & Star Ratings from within WordPress.
 
@@ -66,6 +66,8 @@ Rating-Widget star ratings are localizable and currently available in:
 * Romanian - Română
 * Russian - Русский
 * Serbian - Српски
+* Slovak - Slovenčina
+* Slovenian - Slovenščina
 * Spanish - Español
 * Swedish - Svenska
 * Turkish - Türkçe
@@ -127,6 +129,11 @@ Check out if you have any active caching plugins in your WordPress, they might c
 
 
 == Change Log ==
+= 1.6.8 - 1.6.9 =
+* New: Localized to Slovak.
+* New: Localized to Slovenian.
+* Fix: Multibyte string functions include validation.
+
 = 1.6.7 =
 * New: New beautiful thumb rating design by David Shenberger.
 

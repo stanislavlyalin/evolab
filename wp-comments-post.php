@@ -90,23 +90,6 @@ $commentdata = compact('comment_post_ID', 'comment_author', 'comment_author_emai
 $comment_id = wp_new_comment( $commentdata );
 
 $comment = get_comment($comment_id);
-
-// отправка email-уведомления участнику клуба об адресованном комментарии
-$comment_subject = ( isset($_POST['subject']) ) ? $_POST['subject'] : null;
-if ( !empty( $comment_subject ) ) {
-    $to = $comment_subject;                                         // получатель письма
-    $subject = "Уведомление с сайта evo-lab.org";                   // тема письма
-    $URI = $_SERVER['HTTP_REFERER'] . "#comment-" . $comment_id;    // ссылка на комментарий
-    $message = <<<MESSAGE
-        <p>Уважаемый участник дискуссионного клуба,</p>
-        <p>Вам был адресован комментарий следующего содержания:</p>
-        <p><i>$comment_content</i></p>
-        <p>Ответить на комментарий Вы можете, перейдя по данной <a href="$URI">ссылке</a></p>
-        <p>С уважением, администрация сайта <a href="http://evo-lab.org">evo-lab.org</a></p>
-MESSAGE;
-    mail( $to, $subject, $message );
-}
-
 do_action('set_comment_cookies', $comment, $user);
 
 $location = empty($_POST['redirect_to']) ? get_comment_link($comment_id) : $_POST['redirect_to'] . '#comment-' . $comment_id;

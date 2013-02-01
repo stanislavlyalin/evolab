@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.5\n"
+"Project-Id-Version: WordPress 3.5.1\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-12-07 21:18:34+00:00\n"
-"PO-Revision-Date: 2012-12-11 20:16+0400\n"
+"POT-Creation-Date: 2013-01-22 17:19:47+00:00\n"
+"PO-Revision-Date: 2013-01-25 00:49+0400\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "Language: ru_RU\n"
@@ -3232,7 +3232,7 @@ msgid "Visit %s"
 msgstr "Перейти на %s"
 
 #: wp-admin/includes/class-wp-list-table.php:378
-#: wp-admin/includes/media.php:2030
+#: wp-admin/includes/media.php:2033
 msgid "Show all dates"
 msgstr "Все даты"
 
@@ -3967,7 +3967,7 @@ msgid "Main Page (no parent)"
 msgstr "Главная (нет родительской)"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:873
-#: wp-admin/includes/media.php:949 wp-admin/includes/media.php:1824
+#: wp-admin/includes/media.php:949 wp-admin/includes/media.php:1827
 #: wp-admin/includes/meta-boxes.php:651 wp-admin/includes/meta-boxes.php:652
 msgid "Order"
 msgstr "Порядок"
@@ -4171,7 +4171,7 @@ msgid "Download failed."
 msgstr "Загрузка не удалась."
 
 #: wp-admin/includes/class-wp-upgrader.php:52
-#: wp-admin/includes/update-core.php:663
+#: wp-admin/includes/update-core.php:665
 msgid "Installing the latest version&#8230;"
 msgstr "Установка свежей версии&#8230;"
 
@@ -4181,7 +4181,7 @@ msgstr "Каталог назначения уже существует."
 
 #: wp-admin/includes/class-wp-upgrader.php:54 wp-admin/includes/file.php:616
 #: wp-admin/includes/file.php:708 wp-admin/includes/file.php:767
-#: wp-admin/includes/update-core.php:813
+#: wp-admin/includes/update-core.php:828
 msgid "Could not create directory."
 msgstr "Не удалось создать директорию."
 
@@ -5200,8 +5200,8 @@ msgid "Could not extract file from archive."
 msgstr "Не удалось извлечь файл из архива."
 
 #: wp-admin/includes/file.php:635 wp-admin/includes/file.php:721
-#: wp-admin/includes/file.php:762 wp-admin/includes/update-core.php:636
-#: wp-admin/includes/update-core.php:716 wp-admin/includes/update-core.php:808
+#: wp-admin/includes/file.php:762 wp-admin/includes/update-core.php:638
+#: wp-admin/includes/update-core.php:731 wp-admin/includes/update-core.php:823
 msgid "Could not copy file."
 msgstr "Не удалось скопировать файл."
 
@@ -5633,23 +5633,23 @@ msgstr "Пустой заголовок заполнен именем файла
 msgid "Location of the uploaded file."
 msgstr "Местонахождение загруженного файла."
 
-#: wp-admin/includes/media.php:998 wp-admin/includes/media.php:2146
+#: wp-admin/includes/media.php:998 wp-admin/includes/media.php:2149
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
 msgstr "Альтернативный текст, например, &laquo;Мона Лиза&raquo;"
 
-#: wp-admin/includes/media.php:1081 wp-admin/includes/media.php:1810
+#: wp-admin/includes/media.php:1081 wp-admin/includes/media.php:1813
 msgid "Show"
 msgstr "Показать"
 
-#: wp-admin/includes/media.php:1082 wp-admin/includes/media.php:1811
+#: wp-admin/includes/media.php:1082 wp-admin/includes/media.php:1814
 msgid "Hide"
 msgstr "Скрыть"
 
-#: wp-admin/includes/media.php:1155 wp-admin/includes/media.php:2364
+#: wp-admin/includes/media.php:1155 wp-admin/includes/media.php:2367
 msgid "File name:"
 msgstr "Имя файла:"
 
-#: wp-admin/includes/media.php:1156 wp-admin/includes/media.php:2367
+#: wp-admin/includes/media.php:1156 wp-admin/includes/media.php:2370
 msgid "File type:"
 msgstr "Тип файла:"
 
@@ -5657,12 +5657,12 @@ msgstr "Тип файла:"
 msgid "Upload date:"
 msgstr "Дата загрузки:"
 
-#: wp-admin/includes/media.php:1159 wp-admin/includes/media.php:2377
+#: wp-admin/includes/media.php:1159 wp-admin/includes/media.php:2380
 msgid "Dimensions:"
 msgstr "Размеры:"
 
-#: wp-admin/includes/media.php:1177 wp-admin/includes/media.php:2176
-#: wp-admin/includes/media.php:2182
+#: wp-admin/includes/media.php:1177 wp-admin/includes/media.php:2179
+#: wp-admin/includes/media.php:2185
 msgid "Insert into Post"
 msgstr "Вставить в запись"
 
@@ -5675,16 +5675,16 @@ msgstr "Вы собираетесь удалить <strong>%s</strong>."
 msgid "Continue"
 msgstr "Продолжить"
 
-#: wp-admin/includes/media.php:1550
+#: wp-admin/includes/media.php:1553
 msgid "Drop files here"
 msgstr "Перетащите файлы сюда"
 
-#: wp-admin/includes/media.php:1551
+#: wp-admin/includes/media.php:1554
 msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr "или"
 
-#: wp-admin/includes/media.php:1573
+#: wp-admin/includes/media.php:1576
 msgid ""
 "Your browser has some limitations uploading large files with the multi-file "
 "uploader. Please use the browser uploader for files over 100MB."
@@ -5693,124 +5693,124 @@ msgstr ""
 "с помощью многофайлового загрузчика. Для файлов размером более 100 МБ "
 "используйте, пожалуйста, загрузчик браузера."
 
-#: wp-admin/includes/media.php:1607
+#: wp-admin/includes/media.php:1610
 msgid "Add media files from your computer"
 msgstr "Добавить медиафайлы с компьютера"
 
-#: wp-admin/includes/media.php:1636 wp-admin/includes/media.php:1834
-#: wp-admin/includes/media.php:2080
+#: wp-admin/includes/media.php:1639 wp-admin/includes/media.php:1837
+#: wp-admin/includes/media.php:2083
 msgid "Save all changes"
 msgstr "Сохранить все изменения"
 
-#: wp-admin/includes/media.php:1671
+#: wp-admin/includes/media.php:1674
 msgid "Insert media from another website"
 msgstr "Вставить медиафайл с другого сайта"
 
-#: wp-admin/includes/media.php:1809
+#: wp-admin/includes/media.php:1812
 msgid "All Tabs:"
 msgstr "Все вкладки:"
 
-#: wp-admin/includes/media.php:1813
+#: wp-admin/includes/media.php:1816
 msgid "Sort Order:"
 msgstr "Порядок:"
 
-#: wp-admin/includes/media.php:1814 wp-admin/includes/media.php:1882
+#: wp-admin/includes/media.php:1817 wp-admin/includes/media.php:1885
 msgid "Ascending"
 msgstr "Возрастающий"
 
-#: wp-admin/includes/media.php:1815 wp-admin/includes/media.php:1885
+#: wp-admin/includes/media.php:1818 wp-admin/includes/media.php:1888
 msgid "Descending"
 msgstr "Убывающий"
 
-#: wp-admin/includes/media.php:1816
+#: wp-admin/includes/media.php:1819
 msgctxt "verb"
 msgid "Clear"
 msgstr "Очистить"
 
-#: wp-admin/includes/media.php:1823 wp-admin/menu.php:63 wp-admin/menu.php:215
+#: wp-admin/includes/media.php:1826 wp-admin/menu.php:63 wp-admin/menu.php:215
 msgid "Media"
 msgstr "Медиафайлы"
 
-#: wp-admin/includes/media.php:1846
+#: wp-admin/includes/media.php:1849
 msgid "Link thumbnails to:"
 msgstr "Ссылки с миниатюр:"
 
-#: wp-admin/includes/media.php:1851
+#: wp-admin/includes/media.php:1854
 msgid "Image File"
 msgstr "Файл изображения"
 
-#: wp-admin/includes/media.php:1861
+#: wp-admin/includes/media.php:1864
 msgid "Order images by:"
 msgstr "Критерий сортировки:"
 
-#: wp-admin/includes/media.php:1866
+#: wp-admin/includes/media.php:1869
 msgid "Menu order"
 msgstr "Порядок меню"
 
-#: wp-admin/includes/media.php:1868
+#: wp-admin/includes/media.php:1871
 msgid "Date/Time"
 msgstr "Дата и время"
 
-#: wp-admin/includes/media.php:1869
+#: wp-admin/includes/media.php:1872
 msgid "Random"
 msgstr "Случайно"
 
-#: wp-admin/includes/media.php:1877
+#: wp-admin/includes/media.php:1880
 msgid "Order:"
 msgstr "Порядок:"
 
-#: wp-admin/includes/media.php:1892
+#: wp-admin/includes/media.php:1895
 msgid "Gallery columns:"
 msgstr "Число столбцов:"
 
-#: wp-admin/includes/media.php:1913
+#: wp-admin/includes/media.php:1916
 msgid "Update gallery settings"
 msgstr "Обновить настройки галереи"
 
-#: wp-admin/includes/media.php:1961 wp-admin/includes/media.php:1963
+#: wp-admin/includes/media.php:1964 wp-admin/includes/media.php:1966
 #: wp-admin/upload.php:238
 msgid "Search Media"
 msgstr "Поиск медиафайлов"
 
-#: wp-admin/includes/media.php:1986
+#: wp-admin/includes/media.php:1989
 msgid "All Types"
 msgstr "Все типы"
 
-#: wp-admin/includes/media.php:2009 wp-admin/includes/nav-menu.php:627
+#: wp-admin/includes/media.php:2012 wp-admin/includes/nav-menu.php:627
 #: wp-admin/includes/nav-menu.php:840
 msgid "&laquo;"
 msgstr "&larr;"
 
-#: wp-admin/includes/media.php:2010 wp-admin/includes/nav-menu.php:628
+#: wp-admin/includes/media.php:2013 wp-admin/includes/nav-menu.php:628
 #: wp-admin/includes/nav-menu.php:841
 msgid "&raquo;"
 msgstr "&rarr;"
 
-#: wp-admin/includes/media.php:2050
+#: wp-admin/includes/media.php:2053
 msgid "Filter &#187;"
 msgstr "Найти &#187;"
 
-#: wp-admin/includes/media.php:2100
+#: wp-admin/includes/media.php:2103
 msgid "Image Caption"
 msgstr "Подпись"
 
-#: wp-admin/includes/media.php:2121
+#: wp-admin/includes/media.php:2124
 msgid "Audio, Video, or Other File"
 msgstr "Аудио, видео или другой файл"
 
-#: wp-admin/includes/media.php:2139
+#: wp-admin/includes/media.php:2142
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
 msgstr "Текст ссылки, например &laquo;Требования выкупа (PDF)&raquo;"
 
-#: wp-admin/includes/media.php:2165
+#: wp-admin/includes/media.php:2168
 msgid "Link Image To:"
 msgstr "Ссылка:"
 
-#: wp-admin/includes/media.php:2170
+#: wp-admin/includes/media.php:2173
 msgid "Link to image"
 msgstr "Ссылка на изображение"
 
-#: wp-admin/includes/media.php:2205
+#: wp-admin/includes/media.php:2208
 msgid ""
 "You are using the multi-file uploader. Problems? Try the <a href=\"%1$s\" "
 "target=\"%2$s\">browser uploader</a> instead."
@@ -5818,7 +5818,7 @@ msgstr ""
 "Вы используете многофайловый загрузчик. Проблемы? Попробуйте <a href=\"%1$s"
 "\" target=\"%2$s\">загрузчик браузера</a>."
 
-#: wp-admin/includes/media.php:2219
+#: wp-admin/includes/media.php:2222
 msgid ""
 "You are using the browser&#8217;s built-in file uploader. The WordPress "
 "uploader includes multiple file selection and drag and drop capability. <a "
@@ -5830,7 +5830,7 @@ msgstr ""
 
 #. translators: %1$s is link start tag, %2$s is link end tag, %3$d is width,
 #. %4$d is height
-#: wp-admin/includes/media.php:2250
+#: wp-admin/includes/media.php:2253
 msgid ""
 "Scale images to match the large size selected in %1$simage options%2$s (%3$d "
 "&times; %4$d)."
@@ -5838,11 +5838,11 @@ msgstr ""
 "Масштабировать изображения в соответствии с крупным размером, указанным в "
 "%1$sнастройках медиафайлов%2$s (%3$d &times; %4$d)."
 
-#: wp-admin/includes/media.php:2262
+#: wp-admin/includes/media.php:2265
 msgid "Sorry, you have used all of your storage quota of %s MB."
 msgstr "Извините, вы заполнили всё пространство для файлов (%s МБ)."
 
-#: wp-admin/includes/media.php:2360
+#: wp-admin/includes/media.php:2363
 msgid "File URL:"
 msgstr "Ссылка на файл:"
 
@@ -6890,7 +6890,7 @@ msgstr "Просмотр недоступен. Пожалуйста, сохра�
 #: wp-admin/includes/schema.php:351
 msgctxt "default GMT offset or timezone string"
 msgid "0"
-msgstr "Europe/Moscow"
+msgstr "4"
 
 #: wp-admin/includes/schema.php:359
 msgid "My Site"
@@ -7506,15 +7506,15 @@ msgstr "Фотоблог"
 msgid "Seasonal"
 msgstr "Времена года"
 
-#: wp-admin/includes/update-core.php:618
+#: wp-admin/includes/update-core.php:619
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Проверка распакованных файлов&#8230;"
 
-#: wp-admin/includes/update-core.php:629
+#: wp-admin/includes/update-core.php:630
 msgid "The update could not be unpacked"
 msgstr "Обновление не удалось распаковать"
 
-#: wp-admin/includes/update-core.php:657
+#: wp-admin/includes/update-core.php:659
 msgid ""
 "The update cannot be installed because WordPress %1$s requires PHP version "
 "%2$s or higher and MySQL version %3$s or higher. You are running PHP version "
@@ -7524,7 +7524,7 @@ msgstr ""
 "версии %2$s или выше и MySQL версии %3$s или выше. У вас используется PHP "
 "%4$s и MySQL %5$s."
 
-#: wp-admin/includes/update-core.php:659
+#: wp-admin/includes/update-core.php:661
 msgid ""
 "The update cannot be installed because WordPress %1$s requires PHP version "
 "%2$s or higher. You are running version %3$s."
@@ -7532,7 +7532,7 @@ msgstr ""
 "Обновление не может быть установлено, так как WordPress %1$s требует PHP "
 "версии %2$s или выше. У вас используется версия %3$s."
 
-#: wp-admin/includes/update-core.php:661
+#: wp-admin/includes/update-core.php:663
 msgid ""
 "The update cannot be installed because WordPress %1$s requires MySQL version "
 "%2$s or higher. You are running version %3$s."
@@ -7540,15 +7540,15 @@ msgstr ""
 "Обновление не может быть установлено, так как WordPress %1$s требует MySQL "
 "версии %2$s или выше. У вас используется версия %3$s."
 
-#: wp-admin/includes/update-core.php:746
+#: wp-admin/includes/update-core.php:761
 msgid "Upgrading database&#8230;"
 msgstr "Обновление базы данных&#8230;"
 
-#: wp-admin/includes/update-core.php:848 wp-admin/update-core.php:356
+#: wp-admin/includes/update-core.php:863 wp-admin/update-core.php:356
 msgid "WordPress updated successfully"
 msgstr "WordPress успешно обновлён"
 
-#: wp-admin/includes/update-core.php:851 wp-admin/update-core.php:357
+#: wp-admin/includes/update-core.php:866 wp-admin/update-core.php:357
 msgid ""
 "Welcome to WordPress %1$s. You will be redirected to the About WordPress "
 "screen. If not, click <a href=\"%2$s\">here</a>."
@@ -7557,7 +7557,7 @@ msgstr ""
 "&laquo;О WordPress&raquo;. Если этого не произошло, нажмите <a href=\"%2$s"
 "\">сюда</a>."
 
-#: wp-admin/includes/update-core.php:852 wp-admin/update-core.php:358
+#: wp-admin/includes/update-core.php:867 wp-admin/update-core.php:358
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Добро пожаловать в WordPress %1$s. <a href=\"%2$s\">Узнать больше</a>."
 
@@ -12693,8 +12693,7 @@ msgid ""
 "your site protected from spam even while you sleep. To get started: 1) Click "
 "the \"Activate\" link to the left of this description, 2) <a href=\"http://"
 "akismet.com/get/?return=true\">Sign up for an Akismet API key</a>, and 3) Go "
-"to your <a href=\"admin.php?page=akismet-key-config\">Akismet configuration</"
-"a> page, and save your API key."
+"to your Akismet configuration page, and save your API key."
 msgstr ""
 "Вполне возможно, что используемый миллионами людей плагин Akismet &#8212; "
 "лучший в мире способ <strong>защитить ваш блог от спама в комментариях и "
@@ -12702,8 +12701,7 @@ msgstr ""
 "спите. С чего начать: 1) Нажмите ссылку &laquo;Активировать&raquo; слева от "
 "этого описания; 2) <a href=\"http://akismet.com/get/?return=true"
 "\">Зарегистрируйтесь, чтобы получить API-ключ Akismet</a>; 3) Перейдите на "
-"страницу <a href=\"admin.php?page=akismet-key-config\">&laquo;Настройки "
-"Akismet&raquo;</a> и введите свой API-ключ."
+"страницу &laquo;Настройки Akismet&raquo; и введите свой API-ключ."
 
 #. Author of the plugin/theme
 msgid "Automattic"

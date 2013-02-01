@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WordPress package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.5\n"
+"Project-Id-Version: WordPress 3.5.1\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2012-02-09 22:38:43+00:00\n"
-"PO-Revision-Date: 2012-12-11 20:16+0400\n"
+"POT-Creation-Date: 2013-01-01 00:19:15+00:00\n"
+"PO-Revision-Date: 2013-01-25 00:54+0400\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "Language: ru_RU\n"
@@ -650,7 +650,7 @@ msgstr "Нассау"
 
 #: wp-admin/includes/continents-cities.php:164
 msgid "New York"
-msgstr "Нью Йорк"
+msgstr "Нью-Йорк"
 
 #: wp-admin/includes/continents-cities.php:165
 msgid "Nipigon"

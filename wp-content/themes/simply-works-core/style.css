@@ -1235,3 +1235,14 @@ a.comment-reply-link > span {
   background-color: rgb(0, 145, 212);
   color: white;
 }
+
+.a_sel {
+  font-weight: bold;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+.a_unsel {
+  font-size: 110%;
+  cursor: pointer;
+}
