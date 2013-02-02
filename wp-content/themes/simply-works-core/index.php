@@ -18,10 +18,11 @@ get_header();
         <hr style="color: #BBB; background-color:#BBB; border:0px none; height:1px; clear:both;"/>
       <?php endif; ?>
       <?php
-      $posts_per_page = 20;
-      $current_page   = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
-      $cat_ID         = get_query_var( 'cat' );
-      $wp_query->query( array('posts_per_page' => $posts_per_page, 'paged'          => $current_page, 'cat'            => $cat_ID) );
+      // TODO: код ниже для пагинации не работает. При запросе query сбивается объект wp_query.
+      /* $posts_per_page = 20;
+        $current_page   = ( isset( $_GET['page'] ) ) ? $_GET['page'] : 1;
+        $cat_ID         = get_query_var( 'cat' );
+        $wp_query->query( array('posts_per_page' => $posts_per_page, 'paged'          => $current_page, 'cat'            => $cat_ID) ); */
       if ( have_posts() ) : while ( have_posts() ) : the_post();
           ?>
           <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
@@ -144,7 +145,7 @@ get_header();
                     onclick="
                                 jQuery(this).addClass('a_sel');
                                 jQuery(this).next().removeClass('a_sel');
-                                get_question_text('<?php echo get_site_url() . "/ajax.php"; ?>', <?php the_ID(); ?>, jQuery(this).parent().next());"
+                                get_question_text(<?php the_ID(); ?>, this);"
                     >
                     Формулировка вопроса
                   </a>&nbsp;
@@ -153,7 +154,7 @@ get_header();
                     onclick="
                                 jQuery(this).addClass('a_sel');
                                 jQuery(this).prev().removeClass('a_sel');
-                                get_key_thesis('<?php echo get_site_url() . "/ajax.php"; ?>', <?php the_ID(); ?>, jQuery(this).parent().next());"
+                                get_key_thesis(<?php the_ID(); ?>, this);"
                     >
                     Ключевые тезисы
                   </a>
@@ -236,7 +237,10 @@ get_header();
         }
         ?>
       <?php endif; ?>
-      <?php wp_corenavi( $cat_ID, $posts_per_page, $current_page ); ?>
+
+      <!-- ссылки пагинации на странице -->
+      <!--?php wp_corenavi( $cat_ID, $posts_per_page, $current_page ); ?-->
+
     </div> <!-- END contentarea CLASS -->
     <?php get_sidebar(); ?>
     <div class="clear"></div> 
