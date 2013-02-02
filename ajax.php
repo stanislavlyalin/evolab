@@ -9,7 +9,7 @@ if ( isset( $_GET['post_id'] ) ) {
   if ( $post != NULL ) {
     
     $question_pat = "/.*(?=\[accordions)/s";
-    $thesis_pat   = "/(?<=\[accordion title=\"Ответ клуба\"\]).*(?=\[\/accordion\])/sU";
+    $thesis_pat   = "/(?<=\[accordion title=\"Ключевые тезисы\"\]).*(?=\[\/accordion\])/sU";
     $matches      = array();
 
     if ( isset( $_GET['question'] ) ) {

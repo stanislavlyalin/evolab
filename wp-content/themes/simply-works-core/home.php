@@ -7,7 +7,13 @@ get_header();
 <div id="mainbody"> <!-- START mainbody ID -->
   <div class="wrapper"> <!-- START wrapper CLASS -->
     <div id="contentarea"> <!-- START contentarea CLASS -->
-      
+
+      <?php
+      if ( function_exists( 'vslider' ) ) {
+        vslider( 'homeslider' );
+      }
+      ?>
+
       <h1>Цели и задачи клуба</h1>
       <div class="rounded_div">
         Основной целью клуба является осмысление процессов, происходящих вокруг. Обмениваясь
@@ -17,9 +23,9 @@ get_header();
         основные закономерности и представить многогранную картину будущего мира.
       </div>
       <br>
-      
+
     </div> <!-- END contentarea CLASS -->
-    <?php get_sidebar(); ?>
+<?php get_sidebar(); ?>
     <div class="clear"></div> 
   </div>  <!-- END wrapper CLASS -->
   <div class="clear"></div> 
