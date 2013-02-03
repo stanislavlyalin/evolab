@@ -1246,3 +1246,28 @@ a.comment-reply-link > span {
   font-size: 110%;
   cursor: pointer;
 }
+
+.info_border {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  padding: 20px;
+  height: 100%;
+}
+
+.add_question_btn {
+  background: #0091d4;
+  border: medium none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; 
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  left: 250px;
+}

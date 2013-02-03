@@ -8,12 +8,6 @@ get_header();
   <div class="wrapper"> <!-- START wrapper CLASS -->
     <div id="contentarea"> <!-- START contentarea CLASS -->
 
-      <?php
-      if ( function_exists( 'vslider' ) ) {
-        vslider( 'homeslider' );
-      }
-      ?>
-
       <h1>Цели и задачи клуба</h1>
       <div class="rounded_div">
         Основной целью клуба является осмысление процессов, происходящих вокруг. Обмениваясь
@@ -23,6 +17,13 @@ get_header();
         основные закономерности и представить многогранную картину будущего мира.
       </div>
       <br>
+      
+      <h1>Обсуждаем</h1>
+      <?php
+      if ( function_exists( 'vslider' ) ) {
+        vslider( 'homeslider' );
+      }
+      ?>
 
     </div> <!-- END contentarea CLASS -->
 <?php get_sidebar(); ?>

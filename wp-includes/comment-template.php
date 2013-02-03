@@ -1573,10 +1573,10 @@ function comment_form( $args = array(), $post_id = null ) {
 						<?php endif; ?>
 						<?php echo apply_filters( 'comment_form_field_comment', $args['comment_field'] ); ?>
 
-                                                <!-- формирование выпадающего списка для адресации комментария члену клуба -->
+                                                <!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ -->
                                                 <?php echo address_to_club_member_combo_box(); ?>
 						
-                                                <!-- кнопка "Отправить комментарий" -->
+                                                <!-- пїЅпїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" -->
 						<p class="form-submit">
 							<input name="submit" type="submit" id="<?php echo esc_attr( $args['id_submit'] ); ?>" value="<?php echo esc_attr( $args['label_submit'] ); ?>" />
 							<?php comment_id_fields( $post_id ); ?>
@@ -1593,20 +1593,20 @@ function comment_form( $args = array(), $post_id = null ) {
 }
 
 /**
- * Возвращает HTML-код выпадающего списка, содержащего имена и email участников клуба
- * Этот список нужен для того, чтобы адресовать комментарий участнику
+ * Р’РѕР·РІСЂР°С‰Р°РµС‚ HTML-РєРѕРґ РІС‹РїР°РґР°СЋС‰РµРіРѕ СЃРїРёСЃРєР°, СЃРѕРґРµСЂР¶Р°С‰РµРіРѕ РёРјРµРЅР° Рё email СѓС‡Р°СЃС‚РЅРёРєРѕРІ РєР»СѓР±Р°
+ * Р­С‚РѕС‚ СЃРїРёСЃРѕРє РЅСѓР¶РµРЅ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ Р°РґСЂРµСЃРѕРІР°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёР№ СѓС‡Р°СЃС‚РЅРёРєСѓ
  * 
- * @return HTML-код выпадающенр списка
+ * @return HTML-РєРѕРґ РІС‹РїР°РґР°СЋС‰РµРЅСЂ СЃРїРёСЃРєР°
  */
 function address_to_club_member_combo_box() {
     $names = array(
-        array( 'name' => '',                    'email' => '' ),    // никому не адресовывать
-        array( 'name' => 'Клубу',               'email' => '' ),    // адресовать всем
-        array( 'name' => 'Елене Егоровой',      'email' => 'helenrokken@gmail.com' ),
-        array( 'name' => 'Алексею Борисову',    'email' => 'alex.cankxya@gmail.com' ),
-        array( 'name' => 'Людмиле Изместьевой', 'email' => '' ),
-        array( 'name' => 'Станиславу Лялину',   'email' => 'lyalinstas@gmail.com' ),
-        array( 'name' => 'Милозару Лаптеву',    'email' => '' ),
+        array( 'name' => '',                    'email' => '' ),    // РЅРёРєРѕРјСѓ РЅРµ Р°РґСЂРµСЃРѕРІС‹РІР°С‚СЊ
+        array( 'name' => 'РљР»СѓР±Сѓ',               'email' => '' ),    // Р°РґСЂРµСЃРѕРІР°С‚СЊ РІСЃРµРј
+        array( 'name' => 'Р•Р»РµРЅРµ Р•РіРѕСЂРѕРІРѕР№',      'email' => 'helenrokken@gmail.com' ),
+        array( 'name' => 'РђР»РµРєСЃРµСЋ Р‘РѕСЂРёСЃРѕРІСѓ',    'email' => 'alex.cankxya@gmail.com' ),
+        array( 'name' => 'Р›СЋРґРјРёР»Рµ РР·РјРµСЃС‚СЊРµРІРѕР№', 'email' => '' ),
+        array( 'name' => 'РЎС‚Р°РЅРёСЃР»Р°РІСѓ Р›СЏР»РёРЅСѓ',   'email' => 'lyalinstas@gmail.com' ),
+        array( 'name' => 'РњРёР»РѕР·Р°СЂСѓ Р›Р°РїС‚РµРІСѓ',    'email' => '' ),
     );
 
     foreach ( $names as $person ) {
@@ -1617,5 +1617,5 @@ function address_to_club_member_combo_box() {
     foreach ( $names as $person ) {
         $options .= "<option value='" . $person['email'] . "'>" . $person['name'] . "</option>";
     }
-    return "Адресовать комментарий <select name='subject'>" . $options . "</select>";
+    return "РђРґСЂРµСЃРѕРІР°С‚СЊ РєРѕРјРјРµРЅС‚Р°СЂРёР№ <select name='subject'>" . $options . "</select>";
 }
