@@ -7,8 +7,8 @@ get_header();
 <div id="mainbody"> <!-- START mainbody ID -->
   <div class="wrapper"> <!-- START wrapper CLASS -->
     <div id="contentarea"> <!-- START contentarea CLASS -->
-
-      Обратная связь
+      
+    <br/><br/>Если у Вас есть замечания или пожелания, пожалуйста, сообщайте их по электронной почте: <b>lyalinstas@gmail.com</b><br/><br/>
 
     </div> <!-- END contentarea CLASS -->
 <?php get_sidebar(); ?>

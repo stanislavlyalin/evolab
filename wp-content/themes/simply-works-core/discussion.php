@@ -44,11 +44,10 @@ get_header();
 
       <!-- предложение задать свой вопрос -->
       <?php if ( get_current_user_role() != '' ) : ?>
+        <br/>
+        <p style="font-size: 120%; text-align: center">Если у Вас есть вопрос, и Вы не нашли его<br/> в Списке вопросов для обсуждения ниже, можете</p>
+        <a href="<?php echo get_site_url(); ?>/ask_question/"><div class="add_question_btn">Задать свой вопрос</div></a>
         <br/><br/>
-        Если у Вас есть вопрос, и Вы не нашли его в Списке вопросов для обсуждения ниже, можете
-        <br/>
-        <a ref="<?php echo get_site_url(); ?>/ask_question/"><div class="add_question_btn">Задать свой вопрос</div></a>
-        <br/>
       <?php endif; ?>
       
       <!-- вывод списка вопросов -->

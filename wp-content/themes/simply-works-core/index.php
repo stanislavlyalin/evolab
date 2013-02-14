@@ -135,8 +135,8 @@ get_header();
                 <!-- вставка ссылок на формулировку вопроса и ключевые тезисы -->
                 <?php
                 $permanent_categories = array(1, 2, 4, 5, 19, 22, 23);
-                $category_id          = (int) get_query_var( 'cat' );
-                if ( !in_array( $category_id, $permanent_categories ) ) :
+                $categories             = get_the_category( $post->ID ); //(int) get_query_var( 'cat' );
+                if ( !in_array( $categories[0]->term_id, $permanent_categories ) ) :
                   ?>
                   <!-- при нажатии на ссылку будут отправляться Ajax-запросы на сервер -->
                   <br/><br/>

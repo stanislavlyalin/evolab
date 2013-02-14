@@ -1269,5 +1269,11 @@ a.comment-reply-link > span {
   width: 200px;
   text-align: center;
   position: relative;
-  left: 250px;
+  left: 240px;
+}
+
+.site_navigator_image {
+  margin: 10px;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
