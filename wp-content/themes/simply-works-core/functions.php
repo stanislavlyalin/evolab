@@ -287,6 +287,10 @@ function shortcode_milozar_laptev( $atts, $content ) {
   return shortcode_member( "http://localhost/evolab/wp-content/uploads/2013/01/milozar_laptev.png", "milozar_laptev", "Милозар Лаптев", $content );
 }
 
+function shortcode_nikolai_smirnov( $atts, $content ) {
+  return shortcode_member( "http://evo-lab.org/wp-content/uploads/2013/01/nikolai_smirnov.png", "nikolai_smirnov", "Николай Смирнов", $content );
+}
+
 // шорткоды участников клуба
 add_shortcode( 'елена_егорова', 'shortcode_elena_egorova' );
 add_shortcode( 'алексей_борисов', 'shortcode_aleksey_borisov' );
@@ -294,6 +298,8 @@ add_shortcode( 'людмила_изместьева', 'shortcode_lydmila_izmesti
 add_shortcode( 'станислав_лялин', 'shortcode_stanislav_lyalin' );
 add_shortcode( 'милозар_лаптев', 'shortcode_milozar_laptev' );
 
+// шорткоды экспертов
+add_shortcode( 'николай_смирнов', 'shortcode_nikolai_smirnov' );
 //--------------------------------------------------------------------------------------------------
 // выводи списка ссылок пагинации
 function wp_corenavi( $category_id, $posts_per_page, $current_page ) {
@@ -309,5 +315,6 @@ function wp_corenavi( $category_id, $posts_per_page, $current_page ) {
   // вывод ссылок на экран
   echo "<div>" . paginate_links( $a ) . "</div>";
 }
+
 //--------------------------------------------------------------------------------------------------
 ?>

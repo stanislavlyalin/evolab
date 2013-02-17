@@ -158,6 +158,7 @@ get_header();
                     >
                     Ключевые тезисы
                   </a>
+                  <div id="question_content" style="display: none"></div>
                   <br/><br/>
                 <?php endif; ?>
 

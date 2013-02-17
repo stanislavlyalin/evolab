@@ -20,20 +20,35 @@ function search_blur()
 }
 //------------------------------------------------------------------------------
 
-// получение заданной информации из поста обсуждения
-// type == 0 - формулировка вопроса
-// type == 1 - ключевые тезисы
-function get_disscus_post_info(post_id, me, type) {
+// функция для Ajax-получения формулировки вопроса
+function get_question_text(post_id, me) {
   
+  // загружаем формулировку вопроса из скрытого элемента (только если не пусто)
+  var container = jQuery(me).parent().find('~ div.entry');
+  var question_content = jQuery(me).parent().find('div#question_content');
+  
+  // загружаем только в том случае, если формулировка вопроса была сохранена
+  if ( question_content.html() != "" ) {
+    container.html( question_content.html() );
+  }
+}
+//------------------------------------------------------------------------------
+
+// функция для Ajax-получения ключевых тезисов
+function get_key_thesis(post_id, me) {
+  
+  // сохраняем формулировку вопроса
+  var container = jQuery(me).parent().find('~ div.entry');
+  var question_content = jQuery(me).parent().find('div#question_content');
+  question_content.html( container.html() );
+  
+  // получаем ключевые тезисы с сервера
   var url = 'http://evo-lab.org/ajax.php';
-  var container = jQuery(me).parent().next();
-  var data = ( type == 0 ) ? { post_id: post_id, question: 1 } : { post_id: post_id, thesis: 1 };
-  
   jQuery('<img src=\'http://evo-lab.org/wp-content/themes/simply-works-core/loader.gif\'/>').insertAfter(me);
   
   jQuery.ajax({
     url: url,
-    data: data,
+    data: {'post_id': post_id},
     success: function( data, text_status, jqXHR) {
       jQuery(me).next().remove();
       container.html( data );
@@ -42,17 +57,5 @@ function get_disscus_post_info(post_id, me, type) {
       alert( textStatus );
     }
   });
-}
-//------------------------------------------------------------------------------
-
-// функция для Ajax-получения формулировки вопроса
-function get_question_text(post_id, me) {
-  get_disscus_post_info( post_id, me, 0 );
-}
-//------------------------------------------------------------------------------
-
-// функция для Ajax-получения ключевых тезисов
-function get_key_thesis(post_id, me) {
-  get_disscus_post_info( post_id, me, 1 );
 }
 //------------------------------------------------------------------------------
